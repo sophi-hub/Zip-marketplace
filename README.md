@@ -1,7 +1,7 @@
 
 # Zip: Brechó e Marketplace Sustentável
 
-Bem-vindo ao repositório oficial da **Zip**, um brechó digital com sistema de marketplace inspirado nos Objetivos de Desenvolvimento Sustentável da ONU (Agenda 2020/2030). Nossa missão é promover o consumo e a produção responsáveis, conectando pessoas em um ambiente interativo, responsivo e inovador.
+Bem-vindo ao repositório oficial da **Zip** (Projeto de Conclusão de Curso), um brechó digital com sistema de marketplace inspirado nos Objetivos de Desenvolvimento Sustentável da ONU (Agenda 2020/2030). Nossa missão é promover o consumo e a produção responsáveis, conectando pessoas em um ambiente interativo, responsivo e inovador.
 
 
 ## 🌐 Sobre o Projeto
