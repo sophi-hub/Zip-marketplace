@@ -10,6 +10,27 @@ A **Zip** permite que pessoas revendam roupas usadas, contribuindo para um plane
 
 ---
 
+### 🔧 Recursos
+
+#### Para Usuários:
+- Cadastro com validação de e-mail e segurança de senha.
+- Recuperação de senha e alteração de dados cadastrais.
+- Gerenciamento de produtos: adicionar, remover e visualizar.
+- Favoritar, adicionar à sacola e realizar compras.
+- Consulta de pedidos e vendas.
+- Notificação de status do pedido.
+- Denúncia de produtos ou vendedores.
+- Solicitação para criação de bazares famosos.
+- Responsividade para dispositivos móveis.
+
+#### Para Administração:
+- Gestão de produtos denunciados e vendedores com 60+ denúncias.
+- Aprovação ou negação de solicitações de bazar famoso.
+
+#### Para Famosos:
+- Criação e alteração de bazares.
+
+---
 
 ### 👨‍💻 Tecnologias Utilizadas
 - **Linguagens e Frameworks:** JavaScript, Node.js, Express, MySQL, HTML, CSS.
