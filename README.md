@@ -1,6 +1,6 @@
-# Zip: Brechó e Marketplace Sustentável
+# ZipNew: Brechó e Marketplace Sustentável
 
-Bem-vindo ao repositório oficial da **ZipNew**, um brechó digital com sistema de marketplace inspirado nos Objetivos de Desenvolvimento Sustentável da ONU (Agenda 2020/2030). Nossa missão é promover o consumo e a produção responsáveis, conectando pessoas em um ambiente interativo, responsivo e inovador.
+Bem-vindo ao repositório oficial do **ZipNew**, um brechó digital com sistema de marketplace inspirado nos Objetivos de Desenvolvimento Sustentável da ONU (Agenda 2020/2030). Nossa missão é promover o consumo e a produção responsáveis, conectando pessoas em um ambiente interativo, responsivo e inovador.
 
 <div align="center">
   <img src="https://via.placeholder.com/1000x200/1f1f1f/ffffff?text=ZipNew" alt="ZipNew" style="border-radius: 10px; animation: fadeIn 3s infinite alternate;">
@@ -8,7 +8,7 @@ Bem-vindo ao repositório oficial da **ZipNew**, um brechó digital com sistema 
 
 ## 🌐 Sobre o Projeto
 
-A **ZipNew** é uma plataforma que une moda e sustentabilidade. Focamos em:
+O **ZipNew** é uma plataforma que une moda e sustentabilidade. Focamos em:
 - **Economia Circular:** Incentivar a reutilização de roupas.
 - **Responsabilidade Social:** Parte dos lucros dos bazares de famosos vai para instituições de caridade.
 - **Experiência Imersiva:** Interface moderna e intuitiva, com recursos que facilitam o uso e promovem a interação.
@@ -65,15 +65,31 @@ A **ZipNew** é uma plataforma que une moda e sustentabilidade. Focamos em:
 
 ### 👨‍💻 Tecnologias Utilizadas
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="background-color: #7FFFD4; padding: 5px 15px; border-radius: 10px;">⚡ JavaScript</div>
-  <div style="background-color: #7FFFD4; padding: 5px 15px; border-radius: 10px;">🌀 Node.js</div>
-  <div style="background-color: #7FFFD4; padding: 5px 15px; border-radius: 10px;">🌐 Express</div>
-  <div style="background-color: #7FFFD4; padding: 5px 15px; border-radius: 10px;">📊 MySQL</div>
-  <div style="background-color: #7FFFD4; padding: 5px 15px; border-radius: 10px;">🕊 HTML</div>
-  <div style="background-color: #7FFFD4; padding: 5px 15px; border-radius: 10px;">🕋 CSS</div>
-  <div style="background-color: #7FFFD4; padding: 5px 15px; border-radius: 10px;">🛏‍♂️ Clever Cloud</div>
-  <div style="background-color: #7FFFD4; padding: 5px 15px; border-radius: 10px;">✏ VSCode</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; font-family: Arial, sans-serif;">
+  <div style="background-color: #7FFFD4; padding: 10px 15px; border-radius: 8px; display: flex; align-items: center; gap: 5px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg" alt="JavaScript" width="16" height="16"> JavaScript
+  </div>
+  <div style="background-color: #7FFFD4; padding: 10px 15px; border-radius: 8px; display: flex; align-items: center; gap: 5px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/node-dot-js.svg" alt="Node.js" width="16" height="16"> Node.js
+  </div>
+  <div style="background-color: #7FFFD4; padding: 10px 15px; border-radius: 8px; display: flex; align-items: center; gap: 5px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/express.svg" alt="Express" width="16" height="16"> Express
+  </div>
+  <div style="background-color: #7FFFD4; padding: 10px 15px; border-radius: 8px; display: flex; align-items: center; gap: 5px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/mysql.svg" alt="MySQL" width="16" height="16"> MySQL
+  </div>
+  <div style="background-color: #7FFFD4; padding: 10px 15px; border-radius: 8px; display: flex; align-items: center; gap: 5px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg" alt="HTML" width="16" height="16"> HTML
+  </div>
+  <div style="background-color: #7FFFD4; padding: 10px 15px; border-radius: 8px; display: flex; align-items: center; gap: 5px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg" alt="CSS" width="16" height="16"> CSS
+  </div>
+  <div style="background-color: #7FFFD4; padding: 10px 15px; border-radius: 8px; display: flex; align-items: center; gap: 5px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/visualstudiocode.svg" alt="VSCode" width="16" height="16"> VSCode
+  </div>
+  <div style="background-color: #7FFFD4; padding: 10px 15px; border-radius: 8px; display: flex; align-items: center; gap: 5px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/clever-cloud.svg" alt="Clever Cloud" width="16" height="16"> Clever Cloud
+  </div>
 </div>
 
 ---
