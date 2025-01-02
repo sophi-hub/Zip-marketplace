@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#section_stories_recentes_cell {
+    width: 100vw;
+    height: 97.33vh;
+    background-color: #F2F2F2;
+    position: relative;
+    display: block;
+}
+
+/*parte escrita stories recetes*/
+#figure_stories_recentes_cell {
+    background-image: url("../IMG/stories_recentes/cell/parte_escrita.png");
+    background-size: 45vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 45vw;
+    height: 70px;
+    position: relative;
+    top: 1vh;
+    margin: auto;
+}
+
+/*slide*/
+
+#section_slide_stories_recentes_cell {
+    position: relative;
+    top: -5vh;
+
+}
+
+.carousel-containerST {
+    width: 625px;
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto;
+}
+
+.carousel-slideST {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slideST {
+    width: 100vw;
+    flex: 0 0 auto;
+}
+
+.rectangleST {
+    width: 100vw;
+    height: 65vh;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+#section_slide_stories_recente_cell {
+    display: flex;
+    position: relative;
+    left: -43vw;
+
+}
+
+#section_slide_stories_recente_cell2 {
+    display: flex;
+    position: relative;
+    left: -43vw;
+
+}
+
+/*slide 1*/
+#figure1_slide_stories_recente_cell {
+    background-image: url("../../IMG/stories_recentes/cell/slide_2.png");
+    background-size: 62vw;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 47vh;
+    position: relative;
+}
+
+#figure2_slide_stories_recente_cell {
+    background-image: url("../IMG/cell_index/stories-recentes/imagem-kid.avif");
+    background-size: 74.5vw;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 47vh;
+    position: relative;
+    left: 4vw;
+}
+
+#figure3_slide_stories_recente_cell {
+    background-image: url("../../IMG/stories_recentes/cell/slide_1.png");
+    background-size: 62vw;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 47vh;
+    position: relative;
+    left: 8vw;
+
+}
+
+#figure3_slide_stories_recente_cell > p {
+   position: relative;
+   left: 5vw;
+
+}
+
+/*slide 2*/
+#figure4_slide_stories_recente_cell {
+    background-image: url("../../IMG/stories_recentes/cell/slide_1.png");
+    background-size: 62vw;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 47vh;
+    position: relative;
+}
+
+#figure5_slide_stories_recente_cell {
+    background-image: url("../../IMG/stories_recentes/cell/slide_2.png");
+    background-size: 62vw;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 47vh;
+    position: relative;
+    left: 4vw;
+
+}
+
+#figure6_slide_stories_recente_cell {
+    background-image: url("../IMG/cell_index/stories-recentes/imagem-kid.avif");
+    background-size: 74.5vw;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 47vh;
+    position: relative;
+    left: 8vw;
+}
+
+/*leia mais*/
+.rectangleST > section > article > p  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.3vw;
+    position: relative;
+    top: 5vh;
+    left: 4vw;
+    font-weight: 500;
+}
+
+.rectangleST > section > article > p > a {
+    color: #333;
+}
+
+#leia-mais-3-slide1 {
+    position: relative;
+    left: 8.4vw;
+}
+
+#leia-mais-2-slide2 {
+    position: relative;
+    left: 4.2vw;
+}
+
+#leia-mais-3-slide2 {
+    position: relative;
+    left: 8.4vw;
+}
+
+/*bolinhas*/
+#bolinhas-stories-cell {
+    position: relative;
+    top: 2vh;
+}
+
+.carousel-paginationST {
+    text-align: center;
+    position: relative;
+    top: -17vh;
+}
+
+.pagination-itemST {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagination-itemST.active2 {
+    background-color: #333;
+}
+
+/*slide parte escrita*/
+.carousel3st {
+    position: relative;
+    top: -23vh;
+    width: 157.60vw;
+    height: 14px;
+    overflow: hidden;
+}
+.slide3st {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+/*slide1*/
+
+#article_slide_escrito_stories_recentes_cell {
+    display: flex;
+    column-gap: 10.8vw;
+    position: relative;
+    left: -28vw;
+}
+
+#article_slide_escrito_stories_recentes_cell > p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.4vw;
+
+}
+
+#article_slide_escrito_stories_recentes_cell_p3 {
+    position: relative;
+    left: 18vw;
+}
+
+/*slide2*/
+
+#article_slide_escrito_stories_recentes_cell2 {
+    display: flex;
+    column-gap: 13vw;
+    position: relative;
+    left: -43.2vw;
+}
+
+#article_slide_escrito_stories_recentes_cell2 > p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.4vw;
+
+}
+
+#article_slide_escrito_stories_recentes_cell2_p3 {
+    position: relative;
+    left: 13vw;
+}
+
+
+
+.slide3st.active3st {
+    opacity: 1;
+}
+.red3st {
+
+}
+.blue3st {
+
+}
+
+/*linha*/
+#article_linha_stories_recentes_cell {
+    position: relative;
+    top: -15vh;
+}
+
+#article_linha_stories_recentes_cell > hr {
+    height: 2vh;
+    opacity: 30%;
+}
+
+/*entre no mundo*/
+#section_entre_no_mundo_cell {
+    position: relative;
+    top: -12vh;
+}
+
+/*imagem*/
+
+#figure_entre_no_mundo_cell {
+    background-image: url("../IMG/cell_index/stories-recentes/entre-no-mundo-zip-Photoroom.png");
+    background-repeat: no-repeat;
+    background-size: 38vw;
+    width: 38vw;
+    height: 5vh;
+    position: relative;
+    margin: auto;
+}
+
+/*paragrafo*/
+#paragrafo_entre_no_mundo_cell {
+    position: relative;
+    
+}
+
+#paragrafo_entre_no_mundo_cell > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.7vw;
+    font-weight: 600;
+    opacity: 70%;
+    text-align: center;
+}
+
+/*botao email*/
+#section_botao_email_entre_no_mundo_cell {
+    position: absolute;
+    top: 11vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section_botao_email_entre_no_mundo_cell > a {
+    text-decoration: none;
+}
+
+#article_botao_email_entre_no_mundo_cell {
+    width: 175px;
+    height: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.349);
+    display: flex;
+    align-items: center;
+    column-gap: 113px;
+}
+
+#article_botao_email_entre_no_mundo_cell > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.925);
+    position: relative;
+    left: 10px;
+}
+
+#article_botao_email_entre_no_mundo_cell > img {
+    width: 14px;
+}
+
+.descer-ropade {
+    margin-top: 5vh;
+}

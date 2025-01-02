@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cordosparagrafos: #292727;
+}
+
+
+.abaixar {
+    position: absolute;
+    top: 2000px;
+}
+
+.primeiro_slide{
+    display: flex;
+    margin-top: 100px;
+    position: relative;
+    left: 31px;
+    top: 91125px;
+}
+
+
+
+
+.escrita_new_in {
+    position: relative;
+    top: -5278px;
+    right: 113px;
+    width: 400px;
+    font-family: ;
+}
+
+
+
+.numero1 {
+    width: 653px;
+    height: 475px;
+    position: relative;
+    top: -55px;
+    left: 10px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.slide1_h1 {
+    z-index: 6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.slide_grande1{
+    background-image: url(../IMG/primeiro_slide/slide_atualizado1/blaze_preto_refeito.png);
+    width: 371px;
+    height: 507px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    z-index: 2;
+}
+
+.slide_grande1:hover {
+    background-image: url(../IMG/primeiro_slide/slide_atualizado1/blaze_preto_hover_refeito.png);
+}
+
+.p1_parte1 {
+    color: var(--cordosparagrafos);
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 370px;
+    top: 200px;
+    z-index: 2;
+
+}
+
+.p1_parte2 {
+    color: var(--cordosparagrafos);
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 370px;
+    top: 230px;
+    z-index: 2;
+
+}
+
+.p1_parte3 {
+    color: var(--cordosparagrafos);
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 370px;
+    top: 260px;
+    z-index: 2;
+
+}
+
+
+.preco1 {
+    color: var(--cordosparagrafos);
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 370px;
+    top: 299px;
+    z-index: 2;
+}
+
+
+
+.display {
+    display: flex;
+    column-gap: 5px;
+    position: relative;
+    bottom: 510px;
+    left: 570px;
+}
+
+/* slide pequenos */
+
+/* slide pequeno 1 */
+.slide_pequeno1 {
+    background-image: url(../IMG/primeiro_slide/slide_atualizado1/bermuda_preta_refeito.png);
+    width: 296px;
+    height: 379px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.slide_pequeno1:hover {
+    background-image: url(../IMG/primeiro_slide/slide_atualizado1/bermuda_preta_hover_refeito.png);
+}
+
+.slide_pequeno_paragrafo1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
+
+.preco_slide_pequeno1 {
+    color: var(--cordosparagrafos);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 18px;
+    left: 10px;
+    z-index: 2;
+}
+
+/* slide pequeno 2 */
+.slide_pequeno2 {
+    background-image: url(../IMG/primeiro_slide/slide_atualizado1/bolsa_preta_refeito.png);
+    width: 296px;
+    height: 379px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.slide_pequeno2:hover {
+    background-image: url(../IMG/primeiro_slide/slide_atualizado1/bolsa_preta_hover_refeito.png);
+    
+}
+
+.slide_pequeno_paragrafo2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    z-index: 2;
+}
+
+.preco_slide_pequeno2 {
+    color: var(--cordosparagrafos);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    top: 18px;
+    z-index: 2;
+}
+
+
+/* slide pequeno 3 */
+.slide_pequeno3 {
+    background-image: url(../IMG/primeiro_slide/slide_atualizado1/salto_preto_refeito.png);
+    width: 296px;
+    height: 379px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.slide_pequeno3:hover {
+    background-image: url(../IMG/primeiro_slide/slide_atualizado1/salto_preto_hover_refeito.png);
+}
+
+.slide_pequeno_paragrafo3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    z-index: 2;
+}
+
+.preco_slide_pequeno3 {
+    color: var(--cordosparagrafos);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    top: 18px;
+    z-index: 2;
+}
+
+
+
+/* setas */
+
+
+.setas{
+    display: flex;
+    column-gap: 1408px;
+    position: absolute;
+    top: 1630px;
+    left: -5px;
+
+    
+    
+    
+}
+
+.seta{
+    background-color: rgba(255, 255, 255, 0.356);
+    width: 55px;
+    height: 45px;
+}
+
+.seta-esquerda{
+    transform: rotate(180deg);
+}
+
+
+.slide-in {
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+    animation: slide-out 0.5s forwards;
+    -webkit-animation: slide-out 0.5s forwards;
+}
+    
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+
+    
+@keyframes slide-out {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

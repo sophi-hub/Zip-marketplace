@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#section_menu_retratio {
+width: 100vw;
+height: 500px;
+position: absolute;
+display: none;
+left: -8.98;
+}
+
+#section_do_menu_retratio_2{
+width: 100vw;
+height: 488px;
+background-color: rgb(0, 0, 0);
+position: absolute;
+top: 40px;
+left: -8.98%;
+display: one;
+}
+
+.links_do_menu2:hover + #section_menu_retratio {
+
+    display: block;
+}
+
+#section_menu_retratio:hover {
+  display: block;
+}
+
+#section_do_menu_retratio_2 {
+    animation: growDown 400ms ease-in-out forwards;
+    transform-origin: top center; 
+}
+
+@keyframes growDown {
+    0% {
+      transform: scaleY(0);
+    }
+    80% {
+      transform: scaleY(1.1);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+
+  /*conteudo*/
+
+  /*imsgrnd*/
+
+  #figure_imagens_menu_retratio {
+    display: flex;
+    column-gap: 22px;
+    position: relative;
+    left: 2.1%;
+    top: 51px;
+  }
+
+  #menu_retratio_imagem1 {
+    width: 230px;
+    height: 356px;
+  }
+
+  #menu_retratio_imagem2 {
+    width: 230px;
+    height: 356px;
+  }
+
+  .parte_escrita_figcaption {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 12px;
+  }
+
+  /*lista 1*/
+  #article_menu_retratio_lista{
+    display: flex;
+    column-gap: 99px;
+    position: relative;
+    left: 32.4%;
+    top: -300px;
+
+    color: white;
+
+  }
+
+  #menu_retratio_ul1{
+    list-style-type: none;
+
+
+  }
+
+  #menu_retratio_ul1_p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+
+.menu_retratio_lista1 {
+  position: relative;
+  top: 19px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+  /*lista 2*/
+
+  #menu_retratio_ul2{
+    list-style-type: none;
+
+
+  }
+
+  #menu_retratio_ul2_p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .menu_retratio_lista2 {
+    position: relative;
+    top: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+
+   
+  /*lista 3*/
+
+  #menu_retratio_ul3{
+    list-style-type: none;
+
+
+  }
+
+  #menu_retratio_ul3_p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .menu_retratio_lista3 {
+    position: relative;
+    top: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+
+  /*parte escrita*/
+  #parte_escrita_menu_retratio {
+    position: relative;
+    left: 79.7%;
+    top: -387px;
+  }

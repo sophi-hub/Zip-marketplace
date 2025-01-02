@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    height: 700px;
+}
+
+/*responsivo css*/
+#nick_dj_bazar_cell {
+    display: none;
+}
+
+#rodape_cell {
+    display: none;
+}
+
+#section_stories_recentes_cell {
+    display: none;
+}
+
+#section_barra_de_baixo {
+    display: none;
+}

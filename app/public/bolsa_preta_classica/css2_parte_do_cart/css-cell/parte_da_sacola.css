@@ -1,0 +1,33 @@
+#section_da_parte_da_sacola {
+    position: relative;
+    top: 30.48vw;
+    left: 2.45vw;
+    width: 63.85vw;
+}
+
+.cart-item   {
+    margin-bottom: 2vw;
+    width: 80vw;
+}
+
+.cart-item > img  {
+    width: 35.46vw;
+    height: 40.5vw;
+}
+.cart-item > article   {
+    position: relative;
+    top: -5.21vw;
+    left: 0.520833vw;
+    width: 48.96vw;
+}
+.cart-item > button   {
+    position: relative;
+    left: 1.04vw;
+}
+
+.cart-item > article >h1  {
+    display: none;
+}
+#item-mercadopago  {
+    display: none;
+}

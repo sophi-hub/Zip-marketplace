@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#section_sacola_subtotal {
+    position: relative;
+    top: 20.54vw;
+    left: 4.9%;
+}
+
+/*paragrafos*/
+#parte_escrita_sacola{
+    font-size: 3.8vw;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 0.104167vw;
+}
+
+#parte_escrita_sacola > img {
+    width: 25vw;
+    margin: 3vh 0 0 -1vw;
+}
+
+#parte_escrita_subtotal{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0 0 7vh -0.8vw;
+}

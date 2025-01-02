@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#section-escrita-wishlist {
+    width: 100vw;
+    height: 18vw;
+    position: relative;
+}
+
+#section-escrita-wishlist #saudacao {
+    filter: brightness(0);
+    font-size: 3.0rem;
+    position: relative;
+    left: 3.5vw;
+    top: 13.5vh;
+}
+
+
+#saudacao-desc {
+    position: relative;
+    left: 4vw;
+    top: 13vh;
+    color: #000;
+    font-weight: 500;
+    font-size: 2.5vw;
+}
+
+#saudacao {
+    position: relative;
+}
+
+#saudacao > img {
+    width: 30vw;
+}

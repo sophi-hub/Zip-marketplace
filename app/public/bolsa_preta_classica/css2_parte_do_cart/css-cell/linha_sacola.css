@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*linha primaria*/
+#section_linha_primaria {
+    position: relative;
+    top: 10.52vw;
+    left: 2.45vw;
+    width: 30vw;
+}
+
+/*barra preta*/
+#barra_da_linha_primaria{
+    width: 25.10vw;
+    height: 0.208333vw;
+    background-color: black;
+    position: relative;
+    top: 8vw;
+}
+
+/*paragrafo*/
+#Parte_escrita_sacola_linha_primaria {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 8vw;
+    left: 2vw;
+    margin-bottom: 0.5vw;
+}
+
+/*linha*/
+#linha_primaria {
+    width: 88vw;
+    position: relative;
+    top: 8vw;
+    padding-left: 5vw;
+}
+
+/*linha secundaria*/
+
+#section_linha_secundaria{
+    position: relative;
+    top: 22.64vw;
+    left: 7.8vw;
+}
+
+
+
+

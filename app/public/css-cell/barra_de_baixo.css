@@ -1,0 +1,27 @@
+#section_barra_de_baixo_total {
+    width: 625px;
+    height:5800px;
+    position: absolute;
+    display: none;
+}
+
+#section_barra_de_baixo {
+    width: 625px;
+    height: 40px;
+    background-color: #212121a1;
+    position: sticky;
+    top: 1110px;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    column-gap: 145px;
+}
+
+#section_barra_de_baixo p {
+    position: relative;
+    left: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 550;
+    color: white;
+}

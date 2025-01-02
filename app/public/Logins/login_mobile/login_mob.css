@@ -1,0 +1,139 @@
+
+.login_inteiro {
+    position: relative;
+    top: 33rem;
+    max-width: 200vw;
+    margin: 0;
+
+
+}
+#Login{
+    left: 50%;
+    padding: 10px;
+    border-radius: 0;
+    max-width: 80vh;
+    margin-left: 2vw;
+}
+
+#box{
+    position:relative;
+    top: 12rem;
+    left: 45%;
+    padding: 20px;
+    max-width: 80vh;
+    margin-left: 2vw;
+    
+}
+
+#Remember{
+    padding-right: 32vw;
+}
+
+
+.section_voce_tambem_vai_gostar {
+    position: relative;
+    top: 63rem;
+}
+
+#linha{
+    z-index: 3;
+    position: fixed;
+    top: 16.5rem;
+      left: 47%;
+        transform: rotate(90deg);
+      font-family: 'Poppins', sans-serif;
+      height: 79vw;
+      width: 2px;
+    color: rgb(0, 0, 0);
+  }
+
+#sign{
+    margin-top: 10px;
+}
+
+#LostKey {
+    margin-left: 27vh;
+    margin-right: 4vh;
+}
+
+#enviar{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#null{
+    display: none;
+}
+
+
+.paragrafo_principal_voce_tambem_vai_gostar {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    color: #292727;
+}
+
+.slide_do_voce_tambem_vai_gostar {
+    width: 940px;
+    display: flex;
+    column-gap: 4px;
+    position: relative;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 30px;
+
+}
+
+.texto_vctbmvaig {
+    position: relative;
+    left: 12px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #292727;
+}
+
+.preco_vctbmvaig {
+    position: relative;
+    left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #292727;
+}
+
+.bolinhas_vctbmvaig1 {
+    margin-top: 5px;
+    position: relative;
+    left: 6px;
+}
+
+
+
+.bolinhas_vctbmvaig {
+    margin-top: 5px;
+    position: relative;
+    left: 6px;
+}
+
+#tratar{
+    width: 40vw;
+    height: 30vh;
+}
+
+

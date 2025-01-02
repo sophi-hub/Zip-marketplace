@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/** Começo */
+
+#profile{
+    margin-top:8vw;
+}
+
+#on{
+    margin-left: 3.5vw;
+    margin-right: 4vw;
+    width: 64vw;
+}
+
+#welcome{
+    font-size: 38px;
+    font-weight: 500;
+    color: #000;
+}
+
+#sales{
+    font-size: 21px;
+    font-weight: 500;
+    color:  #30beaa;
+}
+
+
+/*Adicionar Produto*/
+
+#adding{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+
+hr{
+    border-color:#f1f1f1;
+    box-sizing:border-box;
+    width: 100%;  
+    height: 1px;
+    margin-bottom: 1vh;
+  }
+
+
+/* Botão Adicionar Produto*/
+
+#product{
+    flex-direction: row;
+    display: flex;
+}
+
+#box{
+    margin-top: 0.8vw;
+    margin-bottom: 35px;
+
+    background-color: rgb(255, 255, 255);
+    width: 17rem;
+    height: 26rem;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b3a9a9;
+
+    display: grid;
+    place-items: center;
+    margin-right: 15px;
+}
+
+
+#add{
+    font-weight: 400;
+    color: #6d6e79;
+    vertical-align: none;
+    font-size: 32px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 0.4vw;
+}
+
+/* Informações Usuario*/
+
+
+#onn{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#linha{
+    border-color:#f1f1f1;
+    box-sizing:border-box;
+    width: 100%;  
+    height: 1px;
+    margin-top: 1vh;
+}
+
+#info{
+    background: #F2F2F2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30rem;
+    margin-left: 71%;
+    margin-top: -35.7vw;
+    position: absolute;
+
+}
+
+#data, #requests, #salle, #addv, #complaint, #warming, #Log{
+    font-size: 16px;
+    margin-top: -2px;
+    margin-bottom: 7px;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+#data {
+    margin-top: 0.4vw;
+}
+
+#uppy, #kw{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}    
+
+
+/* Suporte */
+
+#sup{
+    background: #F2F2F2;
+    padding-bottom: 28px;
+    margin-bottom: 4rem;
+    width: 30rem;
+    margin-left: 71%;
+    margin-top: -30vh;
+    position: absolute;
+}
+
+#famous{
+    font-family: 'Poppins', sans-serif;
+
+    width: 100%;
+    height: 60px;
+
+    cursor: pointer;
+    background-color: #000;
+    color: #FFFFFF;
+
+    margin-top: 30px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+#adm{
+    font-family: 'Poppins', sans-serif;
+
+    width: 100%;
+    height: 60px;
+
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+
+    margin-top: 30px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+#help{
+    margin-bottom: 0.5vw;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+#questions, #helping{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 17px;
+}
+
+/* Você pode gostar*/
+
+#slide{
+    width: 71vw;
+    margin-bottom: 5rem;
+}
+
+#likeit{
+    text-align: center;
+    border-bottom: 2px solid #f1f1f1;
+    width: 110%;
+    padding-bottom: 0.4vw;
+    margin-left: 5.5vw;
+    font-size: 32px;
+    font-weight: 400;
+    color: #6d6e79;
+}
+
+#like, #likes, #likez, #likezz{
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 40vh;
+
+    display: grid;
+    place-items: center;
+}
+
+#container{
+    display: flex;
+    margin-left: 3.5vw;
+    margin-right: 5vw;
+}
+
+ #likezz{
+    margin-left: -8vw;
+    height: 49vh;
+    width: 18vw;
+    margin-top: 1.2vw;
+}
+
+
+#sepair{
+    display: flex;
+    margin-left: 4vw;
+    margin-right: 8vw;
+}
+
+#display{
+    margin-left: 5px;
+}
+
+
+#dissa{
+    margin-left: 12vw;
+}
+
+#dissw{
+    margin-left: 10vw;
+}
+
+#h3 {
+    font-weight: 500;
+    margin-left: 1vw;
+    font-size: 16px;
+}
+
+#h4 {
+    margin-left: 0.8vw;
+}
+
+#motag{
+    display: none;
+}
+
+#fazz{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+
+#formulario {
+    height: 48vh;
+}
+
+#bunker {
+    width: 25%;
+}
+
+#slide {
+    display: flex;
+    margin-left: 8vw;
+}
+
+#h3, #h4 {
+    margin-left: -7vw;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+
+#h4 {
+    margin-left: -7.2vw;
+    font-weight: 300;
+}
+
+#likeit {
+    width: 69vw;
+    margin-bottom: 1vh;
+}
+
+#contagem-vendas {
+    margin-left: 13vw;
+}
+
+#contagem-denun {
+    margin-left: 15vw;
+}

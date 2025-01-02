@@ -1,0 +1,117 @@
+/*zara_bazar_para_ele*/
+.zara_bazar_para_ele {
+    display: flex;
+    column-gap: 215px;
+    position: relative;
+    top: -800px;
+    height: 260px;
+}
+
+/*imagem_do_homem_de_azul*/
+.imagem_do_zara_bazar_para_ele {
+    position: relative;
+    left: -30px;
+}
+
+/*imagem do slide*/
+.imagem_do_slide2_one {
+    position: relative;
+    top: 200px;
+}
+
+.imagem_do_slide2_two {
+    position: relative;
+    top: -505px;
+}
+
+.imagem_do_slide2_three {
+    position: relative;
+    top: -1213px;
+}
+
+/*paragrafo*/
+.paragrafo_zara {
+    font-family:'Lucida Sans Unicode', 'sans-serif';
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    left: 80.5px;
+    top: 20px;
+
+}
+
+/*preço*/
+.preco_zara {
+    font-family:'Lucida Sans Unicode', 'sans-serif';
+    font-size: 16px;
+    position: relative;
+    left: 140px;
+    top: 26px;
+}
+
+/*tres pontos*/
+.tres_pontos {
+    transform: rotate(180deg);
+    width: 190px;
+    position: relative;
+    left: 84.3px;
+    top: -23px;
+}
+
+/*setas*/
+.setas_zara {
+    display: flex;
+    column-gap: 330px;
+    position: relative;
+    top: -1700px;
+    left: -15px;
+}
+
+
+/*parte escrita zara bazar para ele*/
+.parte_escrita_zara_bazar {
+    font-family:'Lucida Sans Unicode', 'sans-serif';
+    position: absolute;
+    font-size: 34px;
+    color: white;
+    left: 145px;
+    top: 420px;
+
+}
+
+/*botão*/
+.compre_agora_zara_bazar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 240px;
+    top: 490px;
+    font-size: 6;
+    font-weight: normal;
+    width: 233px;
+    height: 39px;
+    background-color: white;
+    color: black;
+}
+
+/*parte escrita do botão*/
+.paragrafo_zara_bazar {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.compre_agora_zara_bazar:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 240px;
+    top: 490px;
+    font-size: 6;
+    font-weight: normal;
+    width: 233px;
+    height: 39px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

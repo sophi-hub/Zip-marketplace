@@ -1,0 +1,15 @@
+#section_swiper {
+    display: none;
+}
+
+.swiper {
+    display: none;
+}
+
+.swiper-slide {
+    display: none;
+  }
+
+  .swiper-slide img {
+    display: none;
+  }

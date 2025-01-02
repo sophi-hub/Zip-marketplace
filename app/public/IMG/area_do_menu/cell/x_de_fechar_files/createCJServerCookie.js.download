@@ -1,0 +1,1 @@
+!function(){"use strict";$(window).on("load",(function(){if((window.isCommissionJunctionEnabled||!1)&&0!==$("#cjCookie").length){var n=$("#cjCookie").attr("data-url");n&&$.ajax({url:n,type:"get",dataType:"json",success:function(){}})}}))}();

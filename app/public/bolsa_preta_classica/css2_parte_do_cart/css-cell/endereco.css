@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#area_de_endereco {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    top: 2vh;
+    padding: 1vw 0 0 1.3vw;
+}
+#area_de_endereco > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8vw;
+    font-weight: 500;
+    margin-bottom: 1.5vh;
+}
+
+/*cep*/
+#article_cep_endereco {
+    margin: 2vw 0 0 3.3vw;
+    font-size: 19px;
+}
+#article_cep_endereco > input {
+    width: 80vw;
+    height: 5vh;
+    margin: 0 0 5vw 0;
+    font-family: 'Poppins';
+    padding: 0.3vw;
+    border: none;
+}
+
+#article_cep_endereco > input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.4vw;
+}
+
+
+#article_cep_endereco > label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8vw;
+    font-weight: 500;
+}
+
+/*numero*/
+#article_numero_endereco {
+    margin: 0vw 0 0.5vh 3.3vw;
+    font-size: 3.4vw;
+}
+#article_numero_endereco > input {
+    width: 80vw;
+    height: 5vh;
+    margin: 0 0 5vw 0;
+    font-family: 'Poppins';
+    padding: 0.3vw;
+    border: none;
+}
+
+#article_numero_endereco > input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8vw;
+
+}
+
+
+#article_numero_endereco > label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8vw;
+    font-weight: 500;
+}
+
+/*botao*/
+
+#section_endereco {
+    align-items: center;
+    width: 15.63vw;
+    align-content: center;
+    text-align: justify;
+}
+
+#confira  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+#botao_endereco > button {
+    margin: 0vw 0 0.5vh 3vw;
+    width: 80vw;
+    height: 7vh;
+    background-color: black;        
+    border: none;          
+    color: white;                
+    font-family: 'Poppins', sans-serif;   
+    font-weight: 500;
+    font-size: 0.989583vw;     
+    cursor: pointer; 
+}
+
+/*endereço resposta*/
+#endereco-info > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.82vw;
+}
+
+#area_de_endereco > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 1.5vh;
+    margin-left: 4vw;
+}
+
+#article_do_pix {
+    height: 65vh;
+}
+
+label {
+    font-size: 19px;
+}

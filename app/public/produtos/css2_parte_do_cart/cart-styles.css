@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.total {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#total-price {
+    
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    position: relative;
+    top: -98px;
+}
+
+.cart-item img {
+    width: 201px; /* Alterado para tamanho menor */
+    height: auto;
+    margin-right: 10px;
+}
+
+/*parte escrita bolsa preta*/
+.cart-item h3 {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    top: -75px;
+}
+
+.cart-item p {
+    position: relative;
+    left: 00px;
+    top: -68px;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*preço*/
+.cart-item h2 {
+    position: relative;
+    left: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*mover para wishlist*/
+.cart-item h1 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 112.5px;
+    left: -215px;
+}
+
+/*cor preta*/
+#cor_preta {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: -63px;
+}
+
+/*x remover*/
+button {
+    position: relative;
+    top: -112px;
+    left: 778px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: white;
+    background-image: url('../../IMG/sacola/produtos/x_para_remover_refeito.png');
+}
+
+/*parte da img coracao mover*/
+#coracao_mover {
+    width: 16px;
+    position: relative;
+    left: 6px;
+    top: 3.5px;
+}

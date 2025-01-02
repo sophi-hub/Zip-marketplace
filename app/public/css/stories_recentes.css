@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor0: #EEEEEE;
+}
+
+.storeis_recentes {
+    position: relative;
+    top: 212.63vh;
+    width: 100%;
+    height: 649px;
+    background-color: var(--cor0);
+}
+
+.article_entre_no_mundo_zip {
+    background-color: var(--cor0);
+    width: 100%;
+    height: 491px;
+    position: relative;
+    top: -47.65vh;
+}
+
+/* parte escrita stories recentes */
+.escrita_stories_recentes {
+    position: relative;
+    left: 7%;
+    top: 90px;
+    width: 520px;
+}
+
+/* paragrafos do pontos do slide */
+.sotories_recentes_paragrafo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+/* pontos do slide */
+.ponsto_do_slide_conjunto{
+    display: flex;
+    column-gap: 10px;
+    position: relative;
+    left: 10.5%;
+    top: -155px;
+}
+
+/* pontos em si */
+.pontos_do_slide_pontos {
+    display: flex;
+    column-gap: 13px;
+    position: relative;
+    top: 9px;
+}
+
+.pontos_do_slide_pontos img {
+    width: 16px;
+    height: 16px;
+}
+
+/* setas */
+.pontos_do_slide_seta_esquerda {
+    position: relative;
+    left: -3px;
+}
+
+.pontos_do_slide_seta_direita {
+    position: relative;
+    left: 9px;
+    transform: rotate(180deg);
+}
+
+/* parte dos slides */
+.slides_stories_recentes {
+    position: relative;
+    top: -480px;
+    left: 45.8%;
+    display: flex;
+    column-gap: 30px;
+}
+
+/* link dos slides */
+.link_do_stories_recentes {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 24px;
+    text-decoration: underline;
+}
+
+.link_stories_recentes2 {
+    position: relative;
+    top: 34px;
+}
+
+.link_stories_recentes3 {
+    position: relative;
+    top: 32px;
+}
+
+/* textos das imagens */
+.texto_da_imgagem_stories_recentes {
+    position: relative;
+    font-size: 16px;
+    top: 11px;
+}
+
+
+.texto_da_imgagem_stories_recentes1 {
+    position: relative;
+    right: 5px;
+}
+
+.texto_da_imgagem_stories_recentes2 {
+    position: relative;
+}
+
+.texto_da_imgagem_stories_recentes3 {
+    position: relative;
+}
+
+/* ENTRE NO MUNDO ZIP */
+
+.parte_do_entre_no_mundo_zip {
+    position: relative;
+    top: 376px;
+}
+
+/* linhas */
+.linha_do_entre_no_mundo_zip {
+    position: relative;
+    top: -12PX;
+    opacity: 40%;
+}
+
+/* escrita entre no mundo zip */
+.figure_escrita_entre_nomundo_zip{
+    display: flex;
+    position: relative;
+    top: -257px;
+    left: 40.2%;
+    
+}
+
+.escrita_entre_nomundo_zip {
+    
+
+}
+
+.article_paragrafo_stories_recentes {
+    display: flex;
+    position: relative;
+    top: -210px;
+    left: 34.7%;
+}
+
+.paragrafo_stories_recentes {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+/* Digite o seu e-mail */
+.article_digite_o_seu_email {
+    display: flex;
+    position: relative;
+    top: -152px;
+    left: 0.6%;
+}
+
+.digite_o_seu_email_stories_recentes {
+    margin: auto;
+    width: 368px;
+    height: 51px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    display: flex;
+    align-items: center;
+}
+
+.paragrafo_digite_o_seu_email {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    opacity: 60%;
+}
+
+.setinha_do_digite_o_seu_email{
+    transform: rotate(180deg);
+    position: relative;
+    left: 200px;
+}
+
+
+/*link*/
+
+.link_entre_no_mundo_zip {
+    color: black;
+    text-decoration: none;
+}
+
+
+.segunda-foto-negao {
+    margin-top: 20vh;
+}
+
+.descer-ropade {
+    margin-top: -30vh;
+}

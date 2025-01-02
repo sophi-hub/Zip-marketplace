@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#section_section{
+    height: ;
+}
+
+#section_do_resumo_e_do_pix {
+    width: 466px;
+    height: 992px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 1370px;
+    top: 17.5%;
+}
+
+/*position sticky*/
+#position_sticky {
+    position: sticky;
+    top: 120px;
+}
+
+/*resumo do pedido*/
+#artcle_resumo_do_pedido {
+}
+
+/*section para dar o espaço da esquerda*/
+#parte_do_section_distancia_da_esquerda{
+    position: absolute;
+    left: 5.6%;
+}
+
+/*parte escrita resumo do pedido*/
+#section_parte_escrita_resumo_do_pedido {
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 35px;
+}
+
+#parte_escrita_resumo_do_pedido {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*resumo do pedido*/
+#artcle_resumo_do_pedido {
+    width: 466px;
+    height: 329px;
+    background-color: #F2F2F2;
+}
+
+/*paragrafo*/
+.paragrafo_resumo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding-bottom: 16px;
+}
+
+.paragrafo_resumo_display_felex {
+    display: flex;
+}
+
+.paragrafo_resumo_direita {
+    position: absolute;
+    right: 5.2%;
+}
+
+.parte_do_total {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*linha*/
+#article_linha_resumo {
+    padding-bottom: 16px;
+}
+
+/*botao finalizar*/
+#botao_do_finalizar_resumo {
+    width: 415px;
+    height: 54px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paragrafo_do_botao_do_finalizar_resumo{
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+/*pix*/
+#article_do_pix {
+    width: 466px;
+    height: 363px;
+    background-color: #F2F2F2;
+    position: relative;
+    top: 19px;
+}
+
+/*paragrafos*/
+
+/*forma de patgamento*/
+#article_forma_de_pagamento {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#paragrafo_forma_de_pagamento {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/*entrega*/
+#article_entrega {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#paragrafo_entrega {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/*receba até 3-5 dias úteis*/
+#article_receba_ate_3 {
+    text-align: center;
+}
+
+#paragrafo_receba_ate_3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/*vinkings*/
+#article_vinkings {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#paragrafo_vinkings {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+#span_vinkings {
+    color: #D9001B;
+}
+
+/*7 dias após a coleta*/
+#article_7_dias {
+    text-align: center;
+}
+
+#paragrafo_7_dias {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/*Preciso de ajuda*/
+#article_preciso_de_ajuda {
+    text-align: center;
+    padding: 30px;
+}
+
+#paragrafo_preciso_de_ajuda {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+/*imagem do pix*/
+#imagem_do_pix {
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+}

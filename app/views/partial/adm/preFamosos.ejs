@@ -1,0 +1,34 @@
+<section class="tabelas">
+    <section class="table-wrapper">
+        <table class="table-solicitacoes">
+            <thead class="solicitacoes-colunas">
+                <tr>
+                    <th>ID do Cliente</th>
+                    <th>Redes Sociais</th>
+                    <th>Aprovação</th>
+                    <th>Negação</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <% if (listaUsuarios.length > 0) { %>
+                    <% if(listaUsuarios) {
+                        listaUsuarios.forEach(function (cliente){ %>
+                            <tr>
+                                <td><%= cliente.id_Cliente %> <%= cliente.nome %></td>
+                                <td><a href="<%= cliente.Url_site %>" style="color: black;"><%= cliente.Url_site %></a></td>
+                                <td><form action="/aprovarFamoso?idUsuario=<%= cliente.id_Cliente %>" method="post"><button id="aprova" type="submit">Aprovar</button></form></td>
+                                <td><form action="/negarFamoso?idUsuario=<%= cliente.id_Cliente %>" method="post"><button id="nega" type="submit">Negar</button></form></td>
+                            </tr>
+                    <% })} %>
+                <% } else { %>
+                    <tr>
+                        <td colspan="4">Nenhuma solicitação encontrada.</td>
+                    </tr>
+                <% } %>
+                
+                
+            </tbody>
+        </table>
+    </section> 
+</section>

@@ -1,0 +1,168 @@
+/*imagem principal*/
+@media screen and (min-width: 410px) and (max-width: 415px) {
+    #imagem_principal_watches_cell {
+        background-size: 66vh;
+        width: 135vw;
+        height: 72vh;
+        position: relative;
+    
+    
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 360px) {
+    #imagem_principal_watches_cell {
+        background-size: 66vh;
+        width: 135vw;
+        height: 72vh;
+        position: relative;
+    
+    
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 391px) {
+    #imagem_principal_watches_cell {
+        background-size: 66vh;
+        width: 135vw;
+        height: 72vh;
+        position: relative;
+    
+    
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 409px) {
+    #imagem_principal_watches_cell {
+        background-size: 66vh;
+        width: 120vw;
+        height: 72vh;
+        position: relative;
+    
+    
+    }
+}
+
+/*slide*/
+/*setas*/
+@media screen and (min-width: 410px) and (max-width: 415px) {
+    .setas_watches {
+        display: flex;
+        column-gap: 64vw;
+        position: relative;
+        top: -53vh;
+        left: 3.2vw;
+
+}
+}
+@media screen and (min-width: 420px) and (max-width: 431px) {
+    .setas_watches {
+        display: flex;
+        column-gap: 64vw;
+        position: relative;
+        top: -53vh;
+        left: 3.5vw;
+
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 361px) {
+    .setas_watches {
+        display: flex;
+        column-gap: 63vw;
+        position: relative;
+        top: -71vh;
+        left: 2vw;
+
+}
+}
+
+@media screen and (min-width: 362px) and (max-width: 376px) {
+    .setas_watches {
+        display: flex;
+        column-gap: 64vw;
+        position: relative;
+        top: -80vh;
+        left: 2vw;
+
+}
+}
+
+@media screen and (min-width: 380px) and (max-width: 391px) {
+    .setas_watches {
+        display: flex;
+        column-gap: 64vw;
+        position: relative;
+        top: -60vh;
+        left: 3vw;
+
+}
+}
+
+@media screen and (min-width: 400px) and (max-width: 409px) {
+    .setas_watches {
+        display: flex;
+        column-gap: 64vw;
+        position: relative;
+        top: -73vh;
+        left: 3.2vw;
+
+}
+}
+
+/*bolinhas*/
+@media screen and (min-width: 410px) and (max-width: 415px) {
+    #bolinhas_watches_cell {
+        position: relative;
+        top: -11vh;
+        left: -17.5vw;
+    }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 431px) {
+    #bolinhas_watches_cell {
+        position: relative;
+        top: -9vh;
+        left: -16vw;
+        
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 361px) {
+    #bolinhas_watches_cell {
+        position: relative;
+        top: -20vh;
+        left: -24.5vw;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 361px) and (max-width: 376px) {
+    #bolinhas_watches_cell {
+        position: relative;
+        top: -22vh;
+        left: -23.5vw;
+    }
+}
+
+
+@media screen and (min-width: 380px) and (max-width: 391px) {
+    #bolinhas_watches_cell {
+        position: relative;
+        top: -15vh;
+        left: -21vw;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 409px) {
+    #bolinhas_watches_cell {
+        position: relative;
+        top: -17vh;
+        left: -19.5vw;
+    }
+}

@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+height: auto;
+overflow-x: hidden;
+font: 300 1.8rem 'Poppins';
+}
+
+.invalido{
+    background-color: rgba(255, 0, 0, 0.13);
+    border-color: rgb(255, 56, 56);
+}

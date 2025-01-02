@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor0: #EEEEEE;
+}
+
+.stories_recentes {
+    background-color: var(--cor0);
+    width: 100vw;
+    height: 25.57vw;
+    position: relative;
+    top: -16.42vw;
+}
+
+@media (min-width: 751px) and (max-width: 850px) {
+    
+    .stories_recentes {
+        background-color: var(--cor0);
+        width: 100vw;
+        height: 25.57vw;
+        position: relative;
+        top: -7.42vw;
+    }    
+
+  }
+.stories_recentes_article {
+    position: relative;
+    top: 18.23vw;
+}
+
+
+/* ENTRE NO MUNDO ZIP */
+
+/* linhas */
+.linha_do_entre_no_mundo_zip {
+    position: relative;
+    top: -18.23vw;
+}
+
+/* escrita entre no mundo zip */
+.figure_escrita_entre_nomundo_zip{
+    display: flex;
+    position: relative;
+    top: -10.68vw;
+    left: 1.1%;
+    
+}
+
+
+.escrita_entre_nomundo_zip {
+    margin: auto;
+    width: 20.57vw;
+}
+
+.article_paragrafo_stories_recentes {
+    display: flex;
+    position: relative;
+    top: -8.18vw;
+    left: 1.2%;
+}
+
+.paragrafo_stories_recentes {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    font-weight: 550;
+    font-size: 0.995238vw;
+}
+
+/* Digite o seu e-mail */
+.article_digite_o_seu_email {
+    display: flex;
+    position: relative;
+    top: -4.69vw;
+    left: 5px;
+}
+
+.digite_o_seu_email_stories_recentes {
+    margin: auto;
+    width: 19.06vw;
+    height: 2.66vw;
+    background-color: white;
+    border: 0.1vw solid black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0.8%;
+}
+
+.paragrafo_digite_o_seu_email {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.785714vw;
+    position: relative;
+    opacity: 50%;
+    left: 0.520833vw;
+}
+
+.setinha_do_digite_o_seu_email{
+    transform: rotate(180deg);
+    position: relative;
+    left: 53.3%;
+}

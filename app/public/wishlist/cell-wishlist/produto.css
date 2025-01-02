@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#produtos-cell {
+    position: relative;
+    top: 27vw;
+    width: 90vw;
+    margin-left: 4vw;
+    padding-top: 1.5vw;
+    
+}
+
+#cart-cart {
+
+}
+
+
+
+#cart-itemsfv {
+   
+    
+}
+
+.cart-itemfv {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+    margin: -1vw 3vw 3vw 0vw;
+    padding: 3vw 1vw 0 0vw;
+    border-bottom: 1px solid #d1d4d6;
+    border-top: 1px solid #d1d4d6;
+    background-color: #ffff;
+    width: 90vw;
+    height: 45.60vw;
+}
+
+#removeProdFav {
+    margin: 0.3vw 6vw 0 0;
+    display: block;
+    border: none;
+    background-color: white;
+    background-image: url("../../../IMG/wishlist/produtos/x_para_remover_refeito.png");
+    background-size: 4.4vw;
+    background-position: center center;
+    width: 4.4vw;
+    height: 4.4vw;
+}
+
+#removeProdFav{
+position: relative;
+left: -6vw;
+}
+
+#tituloProdFav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.3vw;
+    font-weight: 500;
+    margin-top: 3vh;
+    width: 52vw;
+}
+#precoProdFav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.3vw;
+    width: 52vw;
+}
+#imgProdFav {
+    width: 35vw;
+    height: 40.5vw;
+    margin-right: 2vw;
+}
+
+#produto-cell-linha > hr{
+    background-color: black;
+    position: relative;
+    top: 20vh;
+    margin-left: 3.8vw;
+    width: 60vw;   
+
+}
+
+#parcelaProd {
+    font-size: 3.3vw;
+    margin-top: 1vh;
+    width: 52vw;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#produto-detalhes {
+    width: 100vw;
+}
+
+#lista-wishlits {
+    width: 100vw;
+    display: flex;
+    column-gap: 1vw;
+    margin-left: 1vw;
+    list-style-type: none;
+}

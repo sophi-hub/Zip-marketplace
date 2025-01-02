@@ -1,0 +1,40 @@
+.img_womens_bag {
+
+}
+
+/*parte escrita womens bag*/
+.parte_escrita_womens_bag {
+    font-family:'Lucida Sans Unicode', 'sans-serif';
+    font-weight: bold;
+    font-size: 45px;
+    position: relative;
+    top: -206px;
+    left: 103px;
+}
+
+/*botão compre agora*/
+.compre_agora_womens_bag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    width: 233px;
+    height: 39px;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: -200px;
+    left: 140.5px;
+}
+
+/*parte escritado do botão*/
+.botao_parte_escrita_womens_bag {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/*parte hover do botão*/
+.compre_agora_womens_bag:hover {   
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

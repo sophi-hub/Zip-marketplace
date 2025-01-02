@@ -1,0 +1,107 @@
+
+#foto{
+    display: none;
+}
+
+#nome, #senha, #email, #cpf, #cep{
+    width: 80vw;
+    height: 5vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#tornar{
+    width: 80vw;
+}
+
+
+#cadastro{
+    width: 80vw;
+}
+
+#caixa{
+
+    height: 910px;
+    padding: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 550px;
+    left: 25%;
+    margin: 0; 
+    transform: 0; 
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+#forms, #tornar{
+    margin-left: 8.5vw;
+    margin-right: 4vw;
+}
+
+#cadastro{
+    margin-left: -8vw;
+}
+
+#dia, #mes, #ano{
+    width: 22.8vw;
+    height: 5vh;
+    margin-top: 3px;
+    font-size: 16px;
+    border-width: 1px;
+}
+
+#dia, #mes{
+    margin-right: 2.5vw;
+}
+
+#data{
+    margin-bottom: 25px;
+    width: 85vw;
+}
+
+#botao{
+    width: 82vw;
+    height: 8vh;
+    cursor: pointer;
+    background-color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
+    border-color: rgb(36, 36, 36);
+    margin-bottom: 50vh;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0 0 0;
+
+}
+
+#form{
+    margin-left: -20px;
+}
+
+#ajust{
+    width: 27vw;
+}
+
+#boxa{
+    width: 80vw;
+}
+
+#nome, #cep, #senha, #email, #cpf{
+    width: 80vw;
+    height: 5vh;
+    margin-top: 10px;
+    border-width: 1px;
+}
+
+#regra {
+    width: 80vw;
+}
+
+#foto-crie-conta {
+    width: 60vw;
+    text-align: center;
+}
+
+body {
+    height: 20vh;
+}

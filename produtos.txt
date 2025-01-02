@@ -1,0 +1,3 @@
+<%= produto.id_prod_cliente %>, <%= produto.tituloprod %>, <%= produto.preçoprod %>, 'uploads/<%= produto.img1 %>'
+
+onclick="handleClick(); addToCart( '<%= produto.tituloprod %>', Number('<%=produto.preçoprod %>').toFixed(2), '../../IMG/uploads/<%= produto.img1 %>', parseInt('<%= produto.id_prod_cliente %>'))"

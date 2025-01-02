@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.total {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#total-price {
+    
+}
+
+.cart-item {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3.65vw;
+    position: relative;
+    top: -7.10vw;
+    align-content: center;
+}
+
+.cart-item > article {
+    position: relative;
+    top: -6.71vw;
+    left: 0.520833vw;
+    width: 51.5vw;
+    margin-left: 3vw;
+}
+
+.cart-item img {
+    width: 32.46vw;
+    height: 37.5vw;
+    margin-right: 0.520833vw;
+}
+
+/*parte escrita bolsa preta*/
+.cart-item h3 {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3.6vw;
+    top: 0vh;
+}
+
+.cart-item p {
+    position: relative;
+    left: 00px;
+    top: 0vh;
+    font-weight: 300;
+    font-size: 3.1vw;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#parcela {
+    font-weight: 300;
+    font-size: 3.2vw;
+    margin-top: 0.5vw;
+}
+
+/*preço*/
+.cart-item h2 {
+    position: relative;
+    left: 0.834286vw;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*mover para wishlist*/
+.cart-item h1 {
+    font-size: 3.2vw;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 5.86vw;
+    left: -11.20vw;
+}
+
+/*cor preta*/
+#cor_preta {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.834286vw;
+    font-weight: 500;
+    position: relative;
+    top: -3.28vw;
+}
+
+
+
+/*x remover*/
+#form_remove {
+    position: relative;
+    top: -7vw;
+}
+
+#btnremove {
+    position: relative;
+    top: -8.83vw;
+    
+    width: 4vw;
+    height: 4vw;
+    border: none;
+    background-size: 4vw;
+    background-color: white;
+    background-image: url('../../../IMG/sacola/produtos/x_para_remover_refeito.png');
+}
+
+/*parte da img coracao mover*/
+#coracao_mover {
+    width: 0.833333vw;
+    position: relative;
+    left: 0.312500vw;
+    top: 0.182292vw;
+}

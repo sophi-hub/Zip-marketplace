@@ -1,0 +1,73 @@
+<section class="table-wrapper-denuncias">
+    <table class="table-denuncias" style="table-layout: fixed; width: 95%;">
+        <thead class="denuncias-colunas">
+            <tr>
+                <th>ID do Produto</th>
+                <th>Produto Repetido</th>
+                <th>Produto Fora do Tema</th>
+                <th>Produto de Má Qualidade</th>
+                <th>Remover Produto</th>
+            </tr>
+        </thead>
+
+        <tbody class="denuncias-colunas-conteudo">
+            <% if (denuncias.length > 0) { %>
+                <% denuncias.forEach(denuncia => { %>
+                    <tr>
+                        <td class="celula1"><a href="/produtos/<%= denuncia.id_prod_cliente %>" style="color: black;"><%= denuncia.id_prod_cliente %></a> - <%= denuncia.tituloProd %></td>
+                        <td class="celula2"><%= denuncia.total_repetido %></td>
+                        <td class="celula3"><%= denuncia.total_fora_tema %></td>
+                        <td class="celula4"><%= denuncia.total_ma_qualidade %></td>
+                        <td class="celula5">
+                            <form action="/removerDenuncia?id_prod_cliente=<%= denuncia.id_prod_cliente %>" method="post" >
+                                <button type="submit" class="efeito-botao" id="borão">Remover</button>
+                            </form>
+                        </td>
+                    </tr>
+                <% }) %>
+            <% } else { %>
+                <tr>
+                    <td colspan="5">Nenhuma denúncia foi encontrada.</td>
+                </tr>
+            <% } %>
+        </tbody>
+    </table>
+</section>
+ 
+ <section class="table-wrapper-denuncias--vendedor">
+
+        <table class="table-denuncias--vendedor" style="table-layout: fixed; width: 95%;">
+            <thead class="denuncias-colunas--vendedor">
+                <tr>
+                    <th>ID do Vendedor</th>
+                    <th>Fraude</th>
+                    <th>Produto Ilícito</th>
+                    <th>Propaganda Enganosa</th>
+                    <th>Banir vendedor</th>
+                </tr>
+            </thead>
+
+            <tbody class="denuncias-colunas-conteudo--vendedor">
+                <% if (denunciasV.length > 0) { %>
+                    <% denunciasV.forEach(denuncias => { %>
+                        <tr>
+                            <td class="celula1"><%= denuncias.id_Cliente_denunciado %> - <%= denuncias.nome %></td>
+                            <td class="celula2"><%= denuncias.total_fraude %></td>
+                            <td class="celula3"><%= denuncias.total_produto_ilicito %></td>
+                            <td class="celula4"><%= denuncias.total_propaganda_enganosa %></td>
+                            <td class="celula5">
+                            <form method="POST" action="/banir/<%= denuncias.id_Cliente_denunciado %>">
+                                <button type="submit" class="efeito-botao"
+                                id="banir">Banir</button>
+                            </form></td>
+                        </tr>
+                    <% }) %>
+                <% } else { %>
+                    <tr>
+                        <td colspan="5">Nenhuma denúncia foi encontrada.</td>
+                    </tr>
+                <% } %>
+            </tbody>
+        </table>
+        
+    </section>

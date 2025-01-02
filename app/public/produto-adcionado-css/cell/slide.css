@@ -1,0 +1,21 @@
+#section_swiper {
+  display: none;
+}
+
+#section_swiper > article {
+display: none;
+}
+
+.swiper {
+  display: none;
+    
+  }
+
+  .swiper-slide {
+    display: none;
+
+  }
+
+  .swiper-slide img {
+    display: none;
+  }

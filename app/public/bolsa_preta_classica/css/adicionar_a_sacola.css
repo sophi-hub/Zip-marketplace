@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#section_adicionar_a_sacola {
+    width: 481px;
+    height: 1857px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 65.2%;
+    top: -1765px;
+}
+
+#section_position_sticky_adicionar_a_sacola {
+    background-color: rgb(255, 255, 255);
+    width: 481px;
+    height: 630px;
+    position: sticky;
+    top: 90px;
+}
+
+/*parte escrita 1*/
+#article_da_primeira_parte_escrita {
+    position: relative;
+    top: 50px;
+    padding: 2px;
+}
+
+#parte_escrita_bolsa_Preta {
+    font-size: 27px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+#parte_preço_bolsa_Preta {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 19px;
+}
+
+#parte_produto_usado_bolsa_Preta {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 70%;
+    padding-bottom: 21px;
+}
+
+#parte_cor_bolsa_Preta {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+#parte_cor_bolsa_Preta_span{
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+/*imagem favorito*/
+#imagem_de_favorito {
+    width: 27px;
+    height: 26px;
+    background-image: url('../../IMG/pordutos/promos/bolsa_preta_classica/imagem_de_favorito.svg');
+    position: relative;
+    left: 445px;
+    top: -104px;
+}
+
+/*botão adicionar a sacola*/
+#produto_adicionar_a_sacola {
+    background-color: black;
+    width: 474px;
+    height: 62px;
+    position: relative;
+    left: 4px;
+    top: 82px;
+}
+
+#produto_adicionar_a_sacola:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+#produto_adicionar_a_sacola {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*parte escrita vinkings*/
+
+#artcle_do_vendidos_por_vinkings {
+    position: relative;
+    top: 123px;
+}
+
+/*parte do vikings*/
+#paragrafo_do_vendidos_por_vinkings {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#span_do_vikings {
+    color: #DB001B;
+}
+
+/*parte do +100vendas*/
+#parte_escrita_100_vendas {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+/*parte dos articles*/
+#artcle_dos_detalhes{
+    display: flex;
+    flex-direction: column;
+    top: 235px;
+    position: relative;
+    row-gap: 20px;
+}
+
+#artcle_dos_detalhes > p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+font-weight: 500;
+}
+
+#artcle_dos_detalhes > hr {
+    color: black;
+    opacity: 40%;
+}

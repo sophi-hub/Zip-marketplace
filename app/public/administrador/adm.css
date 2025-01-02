@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+html, *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    font-size: 62.5%;
+    overflow-y: scroll;
+}
+body {
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+
+
+/* tabela */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-wrapper {
+    max-height: 50vh;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.table-solicitacoes {
+    width: 95%;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 0.5vw;
+    text-align: left;
+    word-wrap: break-word; /* O conteúdo quebra de linha */
+    align-content: center;
+    text-align: center;
+}
+
+th, td {
+    width: 25%; /* Todas as células têm a mesma largura */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    height: 3vw; /* Altura padrão para as células */
+    line-height: 1.5;
+    border: 1px solid #f2f2f2;
+}
+
+.solicitacoes-colunas > tr > th{
+    height: 7vh;
+    background-color: #212121;
+    color: #FFFFFF;
+    border-top: none;
+    border-bottom: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.solicitacoes-colunas > tr > th:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-left: none;
+    border-right: none;
+}
+
+.solicitacoes-colunas > tr > th:last-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 25px;
+    border-left: none;
+    border-right: none;
+}
+
+td:nth-child(3), td:nth-child(4) {
+    border: none;
+}
+
+th:nth-child(3), th:nth-child(4) {
+    border: none;
+}
+
+td:nth-child(1), td:nth-child(2) {
+    border-top: none;
+}
+
+button {
+    padding: 0.8vw 4vw;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: none;
+}
+
+#aprova {
+    background-color: #30beaa;
+}
+
+#nega {
+    background-color: #f70064;
+}
+
+#aprova:hover {
+    opacity: 0.8;
+}
+
+#nega:hover {
+    opacity: 0.8;
+}
+
+tr > td:nth-child(2) {
+    width: 95%;
+    max-height: 3vw; /* Altura máxima da célula */
+    overflow-y: auto; /* Adiciona o scroll vertical */
+    word-wrap: break-word; /* Qubra de texto */
+    display: block; 
+}
+
+
+
+/* tabela-denuncias */ 
+
+.table-wrapper-denuncias {
+    margin-left: 2.5vw;
+    display: flex;
+    flex-direction: column; /* Permite que o cabeçalho e o corpo se comportem de maneira adequada */
+    justify-content: center;
+}
+
+.table-denuncias {
+    position: -webkit-sticky; /* Suporte para navegadores baseados em WebKit (Chrome, Safari) */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-top: 10vh;
+    width: 90%;
+    table-layout: fixed;
+}
+
+.table-denuncias th, .table-denuncias td {
+    width: 25%; /* Define a largura das células para ser igual */
+}
+
+.table-denuncias th {
+    background-color: #f2f2f2;
+}
+
+.table-denuncias td {
+    height: 3vw; /* Altura padrão para as células */
+    line-height: 1.5;
+    border: 1px solid #f2f2f2;
+}
+
+.denuncias-colunas > tr > th {
+    height: 7vh;
+    background-color: #212121;
+    color: #FFFFFF;
+    border-top: none;
+    border-bottom: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.denuncias-colunas > tr > th:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-left: none;
+    border-right: none;
+}
+
+.denuncias-colunas > tr > th:last-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 25px;
+    border-left: none;
+    border-right: none;
+}
+
+.denuncias-colunas-conteudo  {
+    width: 91vw;
+    display: block;
+    overflow-y: auto;
+    height: calc(50vh - 7vh); /* Altura ajustada para o corpo da tabela */
+}
+
+.denuncias-colunas-conteudo > tr > td:nth-child(1) {
+    width: 27.7vw;
+}
+
+.denuncias-colunas-conteudo > tr > td:nth-child(2) {
+    width: 27.8vw;
+}
+
+.denuncias-colunas-conteudo > tr > td:nth-child(3) {
+    width: 28vw;
+}
+
+.denuncias-colunas-conteudo > tr > td:nth-child(3), td:nth-child(4) {
+    border: none;
+}
+
+.denuncias-colunas > tr > th:nth-child(3), th:nth-child(4) {
+    border: none;
+}
+
+.denuncias-colunas-conteudo > tr > td:nth-child(1), td:nth-child(2) {
+    border-top: none;
+}
+
+.denuncias-colunas-conteudo > tr > td > button {
+    padding: 0.8vw 4vw;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: none;
+}
+
+.denuncias-colunas-conteudo > tr > td:nth-child(3) > button:nth-child(1) {
+    background-color: #4d4d52;
+}
+
+.denuncias-colunas-conteudo > tr > td:nth-child(3) > button:nth-child(1):hover {
+    opacity: 0.8;
+}
+
+.denuncias-colunas-conteudo > tr > td:nth-child(4) > button:nth-child(1):hover {
+    opacity: 0.8;
+}
+
+.denuncias-colunas-conteudo > tr > td:nth-child(2) {
+    max-height: 3vw; /* Altura máxima da célula */
+    overflow-y: auto; /* Adiciona o scroll vertical */
+    word-wrap: break-word; /* Qubra de texto */
+    display: block; 
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#parte_do_voce_pode_gostar {
+    position: relative;
+    top: 70.21vw;
+    display: block;
+}
+
+
+
+/*voce pode gostar*/
+#artcle_do_voce_pode_gostar {
+    display: flex;
+    column-gap: 5.99vw;
+    position: relative;
+    left: 33.8vw;
+    top: 1vw;
+
+}
+
+#artcle_do_voce_pode_gostar > p {
+    font-weight: 600;
+    font-size: 3.3vw;
+    font-family: 'Poppins', sans-serif;
+    align-content: center;
+}
+
+#paragrafo_vistos_recentemente {
+    font-weight: 500;
+}
+
+/*hr*/
+
+#hr_do_voce_pode_gostar {
+    width: 92vw;
+    position: relative;
+    left: 3.6vw;
+    top: 2.61vh;
+}
+
+/*parte sublinhada*/
+#parte_sublinhada_do_hr {
+    position: relative;
+    top: 1.572917vw;
+    left: 32.5vw;
+    width: 35.5vw;
+    height: 0.308333vw;
+    background-color: black;
+}
+

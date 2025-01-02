@@ -1,0 +1,35 @@
+let userCountry = document.querySelector('body[user-country]');
+let userCountryAttributeValue = userCountry.getAttribute('user-country');
+
+let country = document.querySelector('body[k-country]');
+let countryAttributeValue = country.getAttribute('k-country');
+
+console.log(  "countryAttributeValue ", countryAttributeValue, " userCountryAttributeValue ", userCountryAttributeValue)
+
+if (countryAttributeValue !== userCountryAttributeValue) {
+   addGeoBanner();
+}
+
+function addGeoBanner() {
+
+    console.log('Sei in un paese diverso!');
+    const storedValue = localStorage.getItem('addGeoBanner');
+    //localStorage.setItem('addGeoBanner', '')
+    console.log(storedValue);
+
+    if (storedValue === 'displayOne') {
+        console.log('yourKey already set.');
+
+    } else {
+        console.log('yourKey has been set.');
+
+        var script = document.createElement('script');
+        script.src = 'https://www.versace.com/ck-static/geobannerdisplay_v15.js';
+        script.defer = true; // Add the defer attribute
+        script.onload = function () {
+            // Set the key in localStorage with a dummy value
+           localStorage.setItem('addGeoBanner', 'displayOne');
+        };
+        document.head.appendChild(script);
+    }
+}

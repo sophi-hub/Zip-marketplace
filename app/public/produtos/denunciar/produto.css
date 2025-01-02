@@ -1,0 +1,129 @@
+#menu, #men {
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    width: 38rem;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    right: -88vw; /* Inicialmente fora da tela */
+    box-sizing: border-box;
+    transition: right 0.3s ease;
+    background-color: white;
+}
+
+#openMenuBtn, #openMenuBt, #twitter, #close, #twitte {
+    cursor: pointer;
+}
+
+#overlay, #overla {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.767);
+    z-index: 199;
+    display: none; /* Overlay oculto inicialmente */
+}
+
+#thm, #th {
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 120px;
+}
+
+#ban, #twitter, #twitte {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+#mott {
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+#ttom {
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+#check {
+    margin-top: 30px;
+}
+
+input[type=checkbox] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 8px;
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+
+#aa, #bb, #cc, #dd {
+    font-size: 18px;
+}
+
+#denunciarBtn, #denunciarBt {
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    background-color: #212121;
+    color: rgb(255, 255, 255);
+    border-color: #212121;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#close {
+    margin-left: 235px;
+    text-decoration: underline;
+}
+
+#fech {
+    margin-bottom: 300px;
+}
+
+#mensagem {
+    margin-left: 100px;
+}
+
+#ally {
+    overflow: hidden;
+    z-index: 100;
+}
+
+/* Responsividade para Mobile */
+@media (max-width: 768px) {
+    #menu, #men {
+        width: 100%;
+        height: 100vh;
+        right: -100%; /* Inicialmente fora da tela no mobile */
+    }
+
+    #ban {
+        margin-right: auto;
+    }
+
+    #close {
+        margin-left: auto;
+    }
+
+    #denunciarBtn, #enviarBtn {
+        width: 100%;
+        height: 60px;
+        margin-top: 50px;
+    }
+    #fech{
+        text-align: center;
+    }
+}

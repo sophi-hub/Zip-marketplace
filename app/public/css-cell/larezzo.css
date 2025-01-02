@@ -1,0 +1,302 @@
+.body_new_in_for_him {
+    display: none;
+}
+
+.new_in_for_him {
+    display: none;
+}
+
+#section_larezzo_cell {
+    display: block;
+    position: relative;
+    top: -5.6vh;
+    height: 115vh;
+
+}
+
+
+/*imagem principal*/
+
+#article_larezzo_cell {
+    position: relative;
+    top: -25vh;
+    display: flex;
+    justify-content: center;
+}
+
+#imagem_principal_larezzo_cell {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+
+}
+
+#imagem_principal_larezzo_cell > img {
+    width: 100vw;
+
+}
+
+
+
+/*parte escrita*/
+#article_parte_escrita_larezzo_cell {
+    position: absolute;
+    top: 45.8vh;
+   
+}
+
+#parte_escrita_larezzo_cell {
+    width: 31vw;
+    height: 8vw;
+    position: absolute;
+    top: -4.6vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#parte_escrita_larezzo_cell > img {
+    width: 31vw;
+
+}
+
+#botao_larezzo_cell {
+    border: none;
+    width: 30.3vw;
+    height: 2.7vh;
+    background-color: white;
+    color: black;
+    font-size: 1.6vw;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#botao_larezzo_cell:hover {
+    color: white;
+    background-color: black;
+}
+
+#larezzo_slide {
+    position: relative;
+    height: 70vw;
+
+
+}
+
+/* parte do slide */
+
+
+
+/*imagens*/
+.imagem_do_larezzo_slide_cell {
+    width: 55vw;
+    height: 71vw;
+}
+
+.imagem_do_larezzo_slide_cell > img {
+    width: 55vw;
+
+}
+
+/*imagem hover*/
+/*
+.imagem_do_larezzo_slide_cell:active {
+    background-image: url('../IMG/new_in_for_him/new_in_for_him/slide/bota_produto1_larezzo_hover.png');
+}
+*/
+
+.imagem_do_larezzo_slide2_cell {
+    width: 55vw;
+    height: 71vw;
+}
+
+.imagem_do_larezzo_slide2_cell > img {
+    width: 55vw;
+
+}
+
+/*.imagem_do_larezzo_slide2_cell:active {
+    background-image: url('../IMG/new_in_for_him/new_in_for_him/slide/blusa_produto2_larezzo_hover.png');
+}*/
+
+
+/*parte escrita dos produtos*/
+
+.paragrafo_figcaption_cell{
+    position: relative;
+    top: 10px;
+}
+
+.produto_paragrafo_larezzo1_cell {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vw;
+    font-weight: 500;
+    color: #000000;
+    position: relative;
+    top: -1vh;
+    padding-bottom: 2vh;
+}
+
+.parte_do_preço_larezzo_cell {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    opacity: 60%;
+    color: #000000;
+    position: relative;
+    top: -2.5vh;
+}
+
+.produto_paragrafo_larezzo2_cell {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vw;
+    font-weight: 500;
+    color: #000000;
+    position: relative;
+    left: 1.2vw;
+    top: -1vh;
+    padding-bottom: 2vh;
+}
+
+
+
+
+
+
+/*setas*/
+.setas_larezzo {
+    display: none;
+    column-gap: 64vw;
+    position: relative;
+    top: -54vh;
+    left: 6vw;
+}
+
+#setas-larezzo-cell {
+    display: flex;
+    position: relative;
+    top: -58vh;
+    column-gap: 50.1vw;
+    left: 10.5vw;
+}
+
+#setas-larezzo-cell > img {
+    width: 15vw;
+}
+
+
+
+
+
+
+/*parte escrita do botão*/
+
+
+
+
+/* slide */
+
+.slide_larezzo_cell {
+    width: 55vw;
+    height: 700px;
+    position: relative;
+}
+
+.sliderla {
+    width: 55vw;
+    height: 105vh;
+    overflow: hidden;
+    position: relative;
+    top: -32.5vh;
+    left: 23.3vw;
+
+}
+
+.slides2la {
+    width: 400%;
+    height: 600px;
+    display: flex;
+}
+
+.slides2la input {
+    display: none;
+}
+
+
+
+.slide img {
+    
+}
+
+#larezzo_bolinha_cell {
+    position: relative;
+    top: -14.5vh;
+    left: -17.8vw;
+    z-index: 3;
+
+}
+
+.manual-navigation {
+   
+}
+
+.manual-btn {
+    border: 2px solid var(--corpartesuperior);
+    padding: 3.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+
+    top: -35px;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 12px;
+}
+
+.manual-btn:hover {
+    background-color: var(--corpartesuperior);
+}
+
+#radio3la:checked ~ .first2 {
+    margin-left: 0;
+}
+
+#radio4la:checked ~ .first2 {
+    margin-left: -25%;
+}
+
+
+
+.navigation-auto article{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio3la:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #000000;
+}
+
+#radio4la:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #000000;
+}
+
+

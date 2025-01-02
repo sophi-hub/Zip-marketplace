@@ -1,0 +1,49 @@
+:root {
+    --cor0: #EEEEEE;
+}
+
+.storeis_recentes {
+    width: 100%;
+    height: 1050px;
+    background-color: var(--cor0);
+}
+
+/* paragrafos do pontos do slide */
+.sotories_recentes_paragrafo {
+    font-family:'Lucida Sans Unicode', 'sans-serif';
+    font-weight: bold;
+    font-size: 45px;
+}
+
+/* pontos do slide */
+.ponsto_do_slide_conjunto{
+    display: flex;
+    column-gap: 10px;
+    position: relative;
+    left: 40px;
+}
+
+/* pontos em si */
+.pontos_do_slide_pontos {
+    display: flex;
+    column-gap: 10px;
+    position: relative;
+    top: 7px;
+}
+
+.pontos_do_slide_pontos img {
+    width: 14px;
+    height: 12px;
+}
+
+/* setas */
+.pontos_do_slide_seta_esquerda {
+    width: 19px;
+    height: 27px;
+}
+
+.pontos_do_slide_seta_direita {
+    width: 19px;
+    height: 27px;
+    transform: rotate(180deg);
+}

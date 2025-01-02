@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor0: #EEEEEE;
+}
+
+#section_entre_no_mundo_cell {
+    display: none;
+}
+
+.stories_recentes {
+    background-color: var(--cor0);
+    width: 100%;
+    height: 491px;
+    position: relative;
+    top: 100vh;
+}
+
+.stories_recentes_article {
+    position: relative;
+    top: 350px;
+}
+
+
+/* ENTRE NO MUNDO ZIP */
+
+/* linhas */
+.linha_do_entre_no_mundo_zip {
+    position: relative;
+    top: -350PX;
+}
+
+/* escrita entre no mundo zip */
+.figure_escrita_entre_nomundo_zip{
+    display: flex;
+    position: relative;
+    top: -205px;
+    left: 1.1%;
+    
+}
+
+.escrita_entre_nomundo_zip {
+    margin: auto;
+    width: 395px;
+}
+
+.article_paragrafo_stories_recentes {
+    display: flex;
+    position: relative;
+    top: -157px;
+    left: 1.2%;
+}
+
+.paragrafo_stories_recentes {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    font-weight: 550;
+    font-size: 19px;
+}
+
+/* Digite o seu e-mail */
+.article_digite_o_seu_email {
+    display: flex;
+    position: relative;
+    top: -90px;
+    left: 5px;
+}
+
+.digite_o_seu_email_stories_recentes {
+    margin: auto;
+    width: 366px;
+    height: 51px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0.8%;
+}
+
+.paragrafo_digite_o_seu_email {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    position: relative;
+    opacity: 50%;
+    left: 10px;
+}
+
+.setinha_do_digite_o_seu_email{
+    transform: rotate(180deg);
+    position: relative;
+    left: 53.3%;
+}

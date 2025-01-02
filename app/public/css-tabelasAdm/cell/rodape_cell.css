@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#article-total-rodape-cell {
+    display: block;
+}
+
+#rodape_cell {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vh;
+    position: relative;
+    top: 0vh;
+    
+}
+
+.rodape_cell_conteudo {
+    background-color: #212121;
+    height: 6.33vh;
+    display: flex;
+    align-items: center;
+}
+
+.rodape_cell_conteudo > p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.81vw;
+    position: relative;
+    left: 2vw;
+}
+
+.rodape_cell_conteudo > article {
+    display: flex;
+    column-gap: 2.5vw;
+    position: relative;
+    left: 2.5vw;
+}
+
+.rodape_cell_conteudo > article > p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 2.81vw;
+}
+
+.rodape_cell_conteudo > article > img {
+    width: 4.17vw;
+    height: 4.17vw;
+}
+
+#figure1_cell_conteudo {
+
+}
+
+
+
+
+#figure2_cell_conteudo {
+
+}
+
+#figure3_cell_conteudo {
+
+}
+
+/*paragrafo*/
+#paragrafo1_cell_conteudo {
+    position: relative;
+    top: 0.33vh;
+}
+
+#paragrafo2_cell_conteudo {
+    position: relative;
+    top: 0.27vh;
+}
+
+#paragrafo3_cell_conteudo {
+    position: relative;
+    top: 0.22vh;
+}

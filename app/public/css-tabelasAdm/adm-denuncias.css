@@ -1,0 +1,174 @@
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+/* denuncia prdouto */
+
+.table-denuncias {
+    margin-left: 2.3vw;
+}
+
+
+.denuncias-colunas>tr>th {
+    height: 10vh;
+    background-color: #212121;
+    color: #FFFFFF;
+    border-top: none;
+    border-bottom: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.denuncias-colunas>tr>th:first-child {
+    font-weight: 500;
+    font-size: 2rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-left: none;
+    border-right: none;
+}
+
+.denuncias-colunas>tr>th:last-child {
+    font-weight: 500;
+    font-size: 2rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 25px;
+    border-left: none;
+    border-right: none;
+}
+
+.denuncias-colunas-conteudo>tr>td:nth-child(3),
+.denuncias-colunas-conteudo>tr>td:nth-child(4) {
+    border: 1px solid #f1f1f1;
+}
+
+.denuncias-colunas-conteudo>tr>td:nth-child(5) {
+    border: none;
+}
+
+#borão {
+    background-color: #f70064;
+}
+
+#banir{
+    background-color: black;
+}
+
+
+#borão:hover {
+    opacity: 0.8;
+}
+
+tr>td:nth-child(2) {
+    width: auto;
+    max-height: none;
+    height: 8vh;
+    overflow-y: none;
+    word-wrap: none;
+    display: block;
+}
+
+td {
+    font-size: 1.8rem;
+}
+
+.table-denuncias--vendedor {
+    margin-left: 2.3vw;
+}
+
+
+.denuncias-colunas--vendedor>tr>th {
+    height: 10vh;
+    background-color: #212121;
+    color: #FFFFFF;
+    border-top: none;
+    border-bottom: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.denuncias-colunas--vendedor>tr>th:first-child {
+    font-weight: 500;
+    font-size: 2rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-left: none;
+    border-right: none;
+}
+
+.denuncias-colunas--vendedor>tr>th:last-child {
+    font-weight: 500;
+    font-size: 2rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 25px;
+    border-left: none;
+    border-right: none;
+}
+
+.denuncias-colunas-conteudo--vendedor>tr>td:nth-child(3),
+.denuncias-colunas-conteudo--vendedor>tr>td:nth-child(4) {
+    border: 1px solid #f1f1f1;
+}
+
+.denuncias-colunas-conteudo--vendedor>tr>td:nth-child(5) {
+    border: none;
+}
+
+.denuncias-colunas-conteudo--vendedor>tr>td:nth-child(5)>button {
+    background-color: #f70064;
+}
+
+.denuncias-colunas-conteudo--vendedor>tr>td:nth-child(5)>button:hover {
+    opacity: 0.8;
+}
+
+tr>td:nth-child(2) {
+    width: auto;
+    max-height: none;
+    height: 8vh;
+    overflow-y: none;
+    word-wrap: none;
+    display: block;
+}
+
+td {
+    font-size: 1.8rem;
+}
+
+
+@media only screen and (max-width:480px) {
+    .denuncias-colunas>tr>th,
+    .denuncias-colunas--vendedor>tr>th {
+        font-size: 1.2rem;
+    }
+
+    .denuncias-colunas>tr>th:first-child, 
+    .denuncias-colunas>tr>th:last-child,
+    .denuncias-colunas--vendedor>tr>th:first-child,
+    .denuncias-colunas--vendedor>tr>th:last-child {
+        font-size: 1.4rem;
+    }
+}
+
+#borão, #banir {
+    padding: 0.8vw 4vw;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 70%;
+    box-sizing: border-box;
+    border: none;
+}
+
+#banir {
+    padding: 0.9vw 0;
+}
+
+#banir:hover {
+    opacity: 0.8;
+}
+  

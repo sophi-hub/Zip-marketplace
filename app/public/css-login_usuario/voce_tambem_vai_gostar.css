@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    overflow-x: hidden;
+  }
+  
+
+
+.section_voce_tambem_vai_gostar {
+    position: relative;
+    top: 750px;
+}
+
+/*paragrafo principal*/
+.paragrafo_principal_voce_tambem_vai_gostar {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    color: #292727;
+}
+
+/*slide*/
+
+.slide_do_voce_tambem_vai_gostar {
+    width: 940px;
+    display: flex;
+    column-gap: 4px;
+    position: relative;
+    bottom: 160px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
+
+/*texto, preço e bolinhas*/
+
+.texto_vctbmvaig {
+    position: relative;
+    left: 20px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #292727;
+}
+
+.preco_vctbmvaig {
+    position: relative;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-top: 12px;
+    color: #292727;
+}
+
+.bolinhas_vctbmvaig1 {
+    margin-top: 16px;
+    position: relative;
+    left: 6px;
+}
+
+.bolinhas_vctbmvaig3 {
+    margin-top: 16px;
+    position: relative;
+    left: 12px;
+}
+
+.bolinhas_vctbmvaig {
+    margin-top: 16px;
+    position: relative;
+    left: 20px;
+}
+
+/*setinha*/
+.seta_do_vctbmvaig {
+    position: relative;
+    top: 140px;
+    right: 18px;
+    width: 40px;
+    height: 14px;
+}

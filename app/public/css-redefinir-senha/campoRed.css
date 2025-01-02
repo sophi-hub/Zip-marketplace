@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#pass {
+  margin-bottom: 30px;
+}
+
+.redefinir-senha-section {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 7vw;
+  align-items: start;
+  min-height: 97vh;
+}
+
+.redefinir-senha-form {
+  padding-top: 18vh;
+  width: 100%;
+  max-width: 500px;
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 17px;
+}
+
+button {
+  width: 64%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+#red {
+  margin-top: 20px;
+  height: 8vh;
+  cursor: pointer;
+  background-color: rgb(36, 36, 36);
+  color: rgb(255, 255, 255);
+  border-color: rgb(36, 36, 36);
+
+  font-size: 21px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+#regra {
+  padding: 1vw;
+  margin: 1.5vw 0;
+  border: 1px solid #000;
+  width: 100%;
+  font-size: 18px;
+}
+
+#pr {
+  color: #2F395A;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+
+@media (max-width: 1200px) {
+  #modelo-redefinir-senha {
+    display:none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .redefinir-senha-form {
+    padding-top: 14vh;
+  }
+
+  button {
+    font-size: 14px;
+    margin-bottom: 2vh;
+  }
+
+  #modelo-redefinir-senha {
+    display: none;
+  }
+}

@@ -1,0 +1,125 @@
+.botao-mostrar {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /*cinza transparente*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; /*acima elementos */
+    opacity: 0; /*invisível */
+    transition: opacity 0.3s ease; /* animação opacidade */
+}
+
+.fundo.show {
+    opacity: 1; 
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    width: 30vw;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(0.8); 
+    transition: transform 0.3s ease; 
+}
+
+.fundo.show .container {
+    transform: scale(1); 
+}
+
+.fechar {
+    position: absolute;
+    top: 5px;
+    right: 16px;
+    font-size: 44px;
+    font-weight: 300;
+    color: black;
+    cursor: pointer;
+}
+
+.instrucoes {
+    font-weight: 500; 
+    color: black;
+    margin-bottom: 1.5vw;
+    font-size: 30px;
+}
+
+.campo-input, .botao-solicitar {
+    width: 100%; /* Mesma largura do texto */
+    height: 7vh;
+    box-sizing: border-box;
+    padding: 1.4vw 1vw 1vw 1vw;
+    margin-bottom: 4vw;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.campo-input::placeholder {
+    color: black;
+    font-size: 20px;
+}
+
+.botao-solicitar {
+    background-color: black;
+    font-size: 27px;
+    font-weight: 500; 
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border: none; 
+    padding: 0;
+}
+
+.requisitos {
+    background-color: #F6F6F6; 
+    padding: 10px;
+    margin-bottom: 1.5vw;
+    font-size: 20px;
+}
+
+
+.mensagem-espera {
+    margin-top: 3vh;
+    font-size: 20px;
+}
+
+#sup {
+    margin-top: -31vh;
+}
+
+#upp {
+    margin-left: 0.4vw;
+}
+
+.logout-icon {
+    margin-left: 5px;
+}
+
+.configrcoes{
+    margin-top: 0.4vw;
+}
+
+/* telas menores 480px */
+@media (max-width: 480px) {
+    .container {
+        margin: 0 10px; /* Adiciona uma margem de 10px nas laterais */
+        width: auto; /* Ajusta a largura para caber dentro da margem */
+    }
+}
+

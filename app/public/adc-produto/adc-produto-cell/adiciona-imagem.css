@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    overflow-x: hidden;
+}
+
+#main-adc-img {
+    position: relative;
+    top: 12vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#adc-img-titulo {
+    font-size: 2.9vw;
+    margin: 2vh 0 1vh 2vh;
+    align-self: flex-start;
+}
+
+#adc-img-titulo > p {
+    font-size: 2.9vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*section*/
+#section-adc-img {
+    display: flex;
+    column-gap: 0vw;
+}
+
+/*blocos adc*/
+#section-blocos-adc {
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    width: 100vw;
+    height: 66.5vw;
+}
+
+.blocos-adc {
+    background-color: rgb(202, 209, 209);
+    width: 100vw; /*26.37*/
+    height: 90vh;
+    
+}
+
+/*descrição*/
+#section-descricao {
+    width: 100vw;
+    position: relative;
+    top: 2vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+#form-input {
+    display: flex;
+    gap: 3vw;
+    flex-direction: column;
+}
+
+.inputs-adc-img > input {
+    width: 100vw;
+    height: 8.55vw;
+    margin-bottom: 2.2vh;
+    font-size: 2.80vw;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    position: relative;
+}
+
+#titulo, #desc, #preco {
+    width: 89.3vw;
+    margin-left: 5vw;
+}
+
+
+
+.inputs-adc-img > input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.82vw;
+    
+}
+
+
+
+#article-input-categoria {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.75vw;
+    margin-top: 0.5vh;
+    font-weight: 500;
+    position: relative;
+    left: 5vw;
+}
+
+#escolha-categoria {
+    width: 90vw;
+    height: 5vh;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 0.5vw;
+    margin-top: 1vh;
+    font-size: 2.8vw;
+    position: relative;
+}
+
+
+
+/*descrião parte do texto*/
+#descricao-paragrafos :nth-child(1) {
+    font-family:  'Poppins', sans-serif;
+    font-size:  3.2vw;
+    font-weight: 500;
+    position: relative;
+    left: 5.5vw;
+}
+#descricao-paragrafos :nth-child(1) > span {
+    color: #30beaa;
+    font-weight: 500;
+    position: relative;
+    left: 0.1vw;
+}
+
+#descricao-paragrafos :nth-child(2) {
+    font-family:  'Poppins', sans-serif;
+    font-size: 2.95vw;
+    font-weight: 300;
+    color:  #585a5f;
+    position: relative;
+    left: 5.5vw;
+}
+
+
+
+
+
+/*descrião parte do botão*/
+#produto_adicionar_a_sacola {
+    width: 90vw;
+    height: 12vw;
+    border: none;
+    background-color: #212121;
+    color: #FFFFFF;
+    font-size: 4.10vw;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5vw;
+}
+
+#produto_adicionar_a_sacola:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#produto_adicionar_a_sacola {
+    color: white;
+    font-size: 3.55vw;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*parte do adcionar iamgem do prototipo*/
+.upload-area {
+    width: 98vw; /* Largura do retângulo */
+    height: 85vh; /* Altura do retângulo */
+    border: 2px solid #ccc; /* Adicionando uma borda cinza */
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    position: relative;
+    left: 0.6vw;
+  }
+  
+  .upload-area:hover {
+    border-color: #ddd; /* Mudando a cor da borda para um cinza mais claro ao passar o mouse */
+  }
+  
+  .preview img, .preview video {
+    width: 98vw;
+    height: 90vh;
+    object-fit: cover; /* Para cobrir todo o espaço disponível sem distorção */
+    display: block;
+  }
+  
+  input[type="file"] {
+    display: none; /* Escondendo o campo de entrada padrão */
+  }
+  
+  .uploadLabel.file-added .upload-area {
+    border-color: transparent;
+  }
+  
+  /* imagem de cruz */
+  .imagem-de-cruz {
+    width: 1.4vw;
+    height: 1.4vw;
+    background-image: url('../../IMG/adicionar-produto/thumbnail_image.png');
+    background-position: center;
+    background-size: 1.4vw;
+    z-index: 2;
+  }
+
+  .invalido{
+    background-color: rgba(255, 0, 0, 0.13);
+}
+  
+
+  #article-input-tamanho {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.75vw;
+    font-weight: 500;
+    position: relative;
+    left: 5vw;
+  }
+
+  
+  #escolha-tamanho {
+    width: 89.3vw;
+    height: 6vh;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 0.5vw;
+    margin: 1vh 0 0 0.5vw;
+    font-size: 2.8vw;
+    margin-bottom: 1vh;
+
+    
+}
+
+#categorias-opcoes {
+    font-weight: 600;
+    font-size: 2.75vw;
+    padding: 6vw 0 1vw 12vw;
+}
+
+#explicacao-inputs {
+    width: 90.2vw;
+    margin: 0 0 9vw 5vw;
+    box-sizing: border-box;
+    padding: 2vw 2vw;
+    font-weight: 300;
+}
+
+
+.swiper {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 98vw;
+    height: 100%;
+    object-fit: initial;
+  }
+
+  #escolha-categoria {
+    width: 89.3vw;
+    height: 6vh;
+    margin: 1vh 0 0 0.5vw;
+  }

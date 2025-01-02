@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    text-decoration: none;
+    color: #000000;
+}
+
+html {
+    overflow-x:hidden;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/** Começo */
+
+#profile{
+    margin-top: 6rem;
+}
+
+#on, #onn{
+    margin-left: 5vw;
+    margin-right: 4vw;
+}
+
+#welcome{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#sales{
+    font-size: 14px;
+    font-weight: 500;
+    color: #30beaa;
+}
+
+
+/*Adicionar Produto*/
+
+#adding{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+
+hr{
+    border-color:#f1f1f1;
+    box-sizing:border-box;
+    width:100%;  
+    height: 1px;
+  }
+
+
+/* Botão Adicionar Produto*/
+
+#product{
+    flex-direction: row;
+    display: flex;
+}
+
+#box{
+    margin-top: 2vw;
+    margin-bottom: 35px;
+
+    background-color: rgb(255, 255, 255);
+    width: 10.5rem;
+    height: 14.5rem;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a9aab3;
+
+    display: grid;
+    place-items: center;
+    margin-right: 15px;
+}
+
+#add{
+    font-weight: 400;
+    color: #6d6e79;
+    vertical-align: none;
+    font-size: 24px;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 1vw;
+}
+
+/* Informações Usuario*/
+
+
+#info{
+    background: #F2F2F2;
+    margin-top: -30vh;
+    padding-bottom: 3px;
+}
+
+#data, #requests, #salle, #addv, #complaint, #warming, #Log{
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black
+    
+}
+#uppy, #kw{
+
+    display: flex;
+    text-decoration: none;
+    color: black
+
+}
+#upp{
+    padding-left: 9px;
+    text-decoration: none;
+    color: black
+    
+}
+
+/* Suporte */
+
+#onn {
+    margin-top: 32vh;
+}
+
+#sup{
+    background: #F2F2F2;
+    margin-top: 8px;
+    padding-bottom: 28px;
+    margin-bottom: 4rem;
+
+}
+
+#famous{
+    font-family: 'Poppins', sans-serif;
+
+    width: 100%;
+    height: 50px;
+
+    cursor: pointer;
+    background-color: #333333;
+    color: #FFFFFF;
+    border-color: #333333;
+    border-style: solid;
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#adm{
+    font-family: 'Poppins', sans-serif;
+
+    width: 100%;
+    height: 50px;
+
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#help{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#questions, #helping{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+/* Você pode gostar*/
+
+#bunker {
+    width: 45vw;
+}
+
+
+#slide{
+    margin-bottom: 5rem;
+    display: flex;
+    column-gap: 2.5vw;
+    position: relative;
+    left: 4vw;
+}
+
+#slide > a {
+    width: 45vw;
+}
+
+#slide :nth-child(3) {
+    display: none;
+}
+
+#slide :nth-child(4) {
+    display: none;
+}
+
+#likeit{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#like, #likes, #likezz{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    background-color: rgb(255, 255, 255);
+    width: 45vw;
+    height: 30vh;
+
+    display: grid;
+    place-items: center;
+}
+
+#likez{
+    display: none;
+}
+
+#container{
+    display: flex;
+    margin-left: 0vw;
+    margin-right: 9vw;
+
+}
+
+#likes, #likezz{
+    margin-left: 0px;
+}
+
+#h1, #h3{
+    font-size: 13px;
+    margin-left: 0px;
+}
+#h2, #h4{
+    font-size: 12px;
+    color: #7F7F7F;
+}
+
+#sepair{
+    display: flex;
+    margin-left: 2vw;
+}
+
+#display{
+    margin-left: 5px;
+}
+
+#dissy{
+    margin-left: 0vw;
+}
+
+#dissa, #dissw{
+    display: none;
+}
+
+
+#uppy, #kw{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}    
+
+#data, #help {
+    padding-top: 5vw;
+}
+
+#Log {
+    margin-bottom: 5vw;
+}

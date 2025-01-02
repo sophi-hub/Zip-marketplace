@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#parte_do_new_in_responsivo {
+    display: block;
+    position: relative;
+    top: 4vh;
+}
+
+#parte_do_new_in_responsivo_slide {
+    position: relative;
+    top: ;
+}
+
+#new_in_responsivo_slide {
+    position: relative;
+    top: ;
+}
+
+/*parte escrita new in*/
+#imagem_new_in_responsivo {
+    position: relative;
+    top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+#imagem_new_in_responsivo > img {
+    width: 18vw;
+}
+
+/*funcionamento do slide*/
+.carousel-container {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    width: 100vw;
+    height: 430px;
+    overflow: hidden;
+    flex: 0 0 auto;
+}
+
+
+
+.slide_figure {
+    display: flex;
+    column-gap: 11.5px;
+    position: relative;
+    left: -41.5vw;
+}
+
+/*imagens slide*/
+#new_in_responsivo_img1 {
+    height: 58.3vw;
+}
+#new_in_responsivo_img2 {
+    height: 60vw;
+}
+#new_in_responsivo_img3 {
+    height: 62vw;
+}
+
+#new_in_responsivo_img4 {
+    height: 59.3vw;
+}
+#new_in_responsivo_img5 {
+    height: 60vw;
+}
+#new_in_responsivo_img6 {
+    height: 59.3vw;
+}
+
+#new_in_responsivo_img7 {
+    height: 59.3vw;
+}
+#new_in_responsivo_img8 {
+    height: 60vw;
+}
+#new_in_responsivo_img9 {
+    height: 65vw;
+}
+
+/*texto embaixo da imagem*/
+
+.figcapition_new_in {
+    position: relative;
+    left: 21.5vw;
+    top: 1vh;
+}
+
+.figcapition_new_in > p {
+    font-size: 3.3vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+#figcapition_new_in2 {
+    position: relative;
+    left: 16vw;
+}
+
+#figcapition_new_in3 {
+    position: relative;
+    left: 17vw;
+}
+
+
+
+
+/**/
+
+#section_carrousel {
+    position: relative;
+    top: -15vh;
+}
+
+.carousel-pagination {
+    position: relative;
+    left: 45vw;
+    top: -1.5vh;
+}
+
+
+
+.pagination-item {
+    display: inline-block;
+    width: 2.1vw;
+    height: 2.1vw;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0.4vw;
+    cursor: pointer;
+}
+
+.pagination-item.active {
+    background-color: #333;
+}

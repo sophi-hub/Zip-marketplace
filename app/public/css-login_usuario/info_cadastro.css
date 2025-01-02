@@ -1,0 +1,103 @@
+* {
+
+}
+
+#box {
+    background-color: #F6F6F6;
+    max-width: 410px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 151%;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0 5px 5px 0 ;
+    
+  
+  }
+
+  #beneficios {
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 25px;
+
+  }
+
+  #espaço {
+    margin-left: 40px;
+    margin-right: 20px;
+
+  }
+
+  #cadas {
+    margin-top: 39px;
+    margin-bottom: 18px;
+    font-size: 22px;
+
+
+  }
+
+  #buffs {
+    font-size: 14px;
+
+  }
+
+  #um{
+    display: flex;
+    align-items: center;
+  }
+  #do {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  #tr {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  #qu {
+    margin-top: 15px;
+    margin-bottom: 11px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  /*posição dos icones*/
+  .icones_do_cadastrese{
+    position: relative;
+    top: 3px;
+    padding-right: 3px;
+}
+
+  #enviar{
+    width: 96%;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 36, 36);
+    border-color: rgb(36, 36, 36);
+    margin-bottom: 53px;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+
+
+.user{
+  margin-right: 10px;
+}
+
+.caminhas{
+  margin-right: 10px;
+
+}
+

@@ -1,0 +1,14 @@
+Para adicionar as dependências abra o terminal no VS Code
+e digite:
+
+**** (npm config set strict-ssl false) para liberar o proxy
+
+**** npm install
+
+Crie um arquivo .env com suas credenciais de acesso ao banco de dados
+DB_HOST = ????
+DB_USER = ????
+DB_PASSWORD = ????
+DB_PASSWORDITB = ????
+DB_NAME = ????
+BD_PORT = ????

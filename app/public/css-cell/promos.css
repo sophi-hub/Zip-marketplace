@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#section_do_promos_responsivo {
+    display: block;
+    position: relative;
+}
+
+#section_promos_responsivo {
+    display: block;
+    position: relative;
+    top: -3.3vh;
+}
+
+/*parte escrita*/
+#parte_escrita_promos_responsivo {
+    position: relative;
+    left: 3.5vw;
+    top: -1.4vh;
+}
+
+#parte_escrita_promos_responsivo > img {
+    width: 12.775vh;
+}
+
+/*slide*/
+#promo_responsivo_slide {
+display: flex;
+column-gap: 0.7vw;
+position: relative;
+left: 1.8vw;
+}
+
+.imagem_do_slide {
+    width: 46vw
+
+}
+
+/*figcaption*/
+#figcaption_promos_responsivo {
+    position: relative;
+    top: 1.5vh;
+    left: 2.7vw;
+}
+
+#paragrafo_promos_responsivo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 2.7vw;
+    margin-bottom: 0.2vh;
+}
+
+#preco_promos_responsivo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8vw;
+    opacity: 90%;
+    color: black;
+}
+
+/*setas*/
+#section_setas_promos { 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#figure_setas_promos_responsivo {
+    position: relative;
+    top: -26vh;
+    display: flex;
+    column-gap: 80vw;
+}
+
+#figure_setas_promos_responsivo > img {
+    width: 13vw;
+}
+
+#rotacao_seta_promos_responsivo {
+    transform: rotate(180deg);
+}

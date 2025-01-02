@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*cell*/
+#section_italian_cell {
+    display: none;
+}
+
+/* parte do italian leather artistry */
+.section_italian {
+    position: relative;
+    top: 48.44vw;
+}
+
+#imagem_italian_leather_artistry {
+    width: 100vw;
+    height: 44.43vw;
+    background-position: 32%;
+}
+#imagem_italian_leather_artistry > img {
+    width: 100vw;
+
+}
+
+/*parte escrita*/
+.parte_escrita_italian_leather_artistry{
+    position: relative;
+    top: -470px;
+    left: 70%;
+}
+
+/*botão compre agora*/
+.oculos_50_off_italian_leather_artistry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    width: 212px;
+    height: 37px;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: -675px;
+    left: 77.5%;
+    border: 1px solid  black;
+}
+
+/*parte escritado do botão*/
+.botao_parte_escrita_italian_leather_artistry {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*parte hover do botão*/
+.oculos_50_off_italian_leather_artistry:hover {   
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#segunda-foto-negao {
+    margin-top: 2VH;
+}

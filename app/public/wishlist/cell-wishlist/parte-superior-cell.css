@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --corpartesuperior: #292727;
+    --cordapartesuperiorverde: #084b4b;
+}
+
+
+/* parte superior do desconto na primeira compra */
+
+
+#section_parte_superior {
+    width: 100vw;
+    z-index: 10000;
+}
+
+
+#parte_superior{
+    z-index: 10;
+    position: fixed;
+    top: 0vw;
+    background-color: black;
+    height: 3vh;
+    width: 100vw ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parte_superior > p{
+    font-size: 2.5vw;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-weight: 600;
+    
+    
+
+}
+
+#parte_superior_texto_1::before {
+    content: "Confira as novidades do site. 10% OFF* na primeira compra!";
+}
+
+
+#img_parte_superior{
+    position: fixed;
+    width: 34px;
+    height: 34px;
+    right: 511px;
+}
+
+#espaço {
+    color: rgb(0, 0, 0);
+}
+
+#mais_exclamaçao{
+    position: absolute;
+    bottom: 3px;
+
+}
+
+/* parte das setas */
+.setas_parte_superior {
+    position: fixed;
+    left: 31.5%;
+    top: 1.2%;
+    z-index: 10;
+    display: none;
+    column-gap: 177.5%;
+    width: 20%;
+    height: 2%;
+
+}
+
+/* seta direita */
+.seta_direita_parte_superior {
+    transform: rotate(180deg);
+}

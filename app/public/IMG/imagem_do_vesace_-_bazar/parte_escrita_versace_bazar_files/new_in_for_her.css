@@ -1,0 +1,110 @@
+
+/* area do new in for her*/
+.new_in_for_her {
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 153px;
+    height: 1080px;
+}
+
+
+/*imagem do new in for her*/
+.imagem_do_new_in_for_her {
+    position: relative;
+    right: -57px;
+}
+
+/*imagem do slide*/
+.imagem_do_slide3_one {
+    position: relative;
+    top: 200px;
+}
+
+.imagem_do_slide3_two {
+    position: relative;
+    top: -505px;
+}
+
+.imagem_do_slide3_three {
+    position: relative;
+    top: -1213px;
+}
+
+/*paragrafo*/
+.paragrafo_new {
+    font-family:'Lucida Sans Unicode', 'sans-serif';
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    left: 80.5px;
+    top: 20px;
+
+}
+
+/*preço*/
+.preco_new {
+    font-family:'Lucida Sans Unicode', 'sans-serif';
+    font-size: 16px;
+    position: relative;
+    left: 140px;
+    top: 26px;
+}
+
+/*tres pontos*/
+.tres_pontos {
+    transform: rotate(180deg);
+    width: 190px;
+    position: relative;
+    left: 84.3px;
+    top: -23px;
+}
+
+/*setas*/
+.setas_zara {
+    display: flex;
+    column-gap: 330px;
+    position: relative;
+    top: -1700px;
+    left: -15px;
+}
+
+
+/*parte escrita zara bazar para ele*/
+.parte_escrita_new_in {
+    font-family:'Lucida Sans Unicode', 'sans-serif';
+    position: absolute;
+    font-size: 34px;
+    color: white;
+    right: 198px;
+    top: 420px;
+
+}
+
+/*botão*/
+.compre_agora_new_in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 217px;
+    top: 490px;
+    font-size: 6;
+    font-weight: normal;
+    width: 233px;
+    height: 39px;
+    background-color: white;
+    color: black;
+}
+
+/*parte escrita do botão*/
+.paragrafo_new_in {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.compre_agora_new_in:hover {  
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

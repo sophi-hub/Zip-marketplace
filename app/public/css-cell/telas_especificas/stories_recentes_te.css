@@ -1,0 +1,152 @@
+/*iphone se*/
+@media screen and (min-height:665px) and (max-height:675px) {
+    /*parte escrita*/
+    .carousel3st {
+        position: relative;
+        top: -49vh;
+        width: 157.60vw;
+        height: 14px;
+        overflow: hidden;
+        margin-top: 8vh;
+    }
+
+    /*leia mais*/
+    .rectangleST > section > article > p  {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.3vw;
+        position: relative;
+        top: 5vh;
+        left: 4vw;
+        font-weight: 500;
+    }
+}
+@media screen and (min-height:676px) and (max-height:691px) {
+    /*parte escrita*/
+    .carousel3st {
+        position: relative;
+        top: -46vh;
+        width: 157.60vw;
+        height: 14px;
+        overflow: hidden;
+        margin-top: 8vh;
+    }
+
+    .rectangleST > section > article > p  {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.3vw;
+        position: relative;
+        top: 5vh;
+        left: 4vw;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-height:692px) and (max-height:709px) {
+    /*parte escrita*/
+    .carousel3st {
+        position: relative;
+        top: -45vh;
+        width: 157.60vw;
+        height: 14px;
+        overflow: hidden;
+        margin-top: 8vh;
+    }
+
+    .rectangleST > section > article > p  {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.3vw;
+        position: relative;
+        top: 5vh;
+        left: 4vw;
+        font-weight: 500;
+    }
+}
+@media screen and (min-height:710px) and (max-height:721px) {
+    /*parte escrita*/
+    .carousel3st {
+        position: relative;
+        top: -43vh;
+        width: 157.60vw;
+        height: 14px;
+        overflow: hidden;
+        margin-top: 8vh;
+    }
+
+    .rectangleST > section > article > p  {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.3vw;
+        position: relative;
+        top: 5vh;
+        left: 4vw;
+        font-weight: 500;
+    }
+}
+
+/*galaxy s8*/
+@media screen and (min-height:722px) and (max-height:746px) {
+    /*parte escrita*/
+    .carousel3st {
+        position: relative;
+        top: -44vh;
+        width: 157.60vw;
+        height: 14px;
+        overflow: hidden;
+        margin-top: 8vh;
+    }
+
+    .rectangleST > section > article > p  {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.3vw;
+        position: relative;
+        top: 2vh;
+        left: 4vw;
+        font-weight: 500;
+    }
+}
+
+
+
+
+/*iphone12 pro*/
+@media screen and (min-height:831px) and (max-height:850px) {
+    /*parte escrita*/
+    .carousel3st {
+        position: relative;
+        top: -35vh;
+        width: 157.60vw;
+        height: 14px;
+        overflow: hidden;
+        margin-top: 8vh;
+    }
+
+    .rectangleST > section > article > p  {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.3vw;
+        position: relative;
+        top: 1vh;
+        left: 4vw;
+        font-weight: 500;
+    }
+}
+
+/*galaxy s20 ultra*/
+@media screen and (min-height:901px) and (max-height:916px) {
+    /*parte escrita*/
+    .carousel3st {
+        position: relative;
+        top: -32vh;
+        width: 157.60vw;
+        height: 14px;
+        overflow: hidden;
+        margin-top: 8vh;
+    }
+
+    .rectangleST > section > article > p  {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.3vw;
+        position: relative;
+        top: -3vh;
+        left: 4vw;
+        font-weight: 500;
+    }
+}

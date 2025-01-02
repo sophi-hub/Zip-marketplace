@@ -1,0 +1,80 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    height: 100vw;
+    
+}
+
+/*parte escrita new in*/
+.boddy {
+    display: none;
+}
+
+/*parte superior do desconto na primeira compra*/
+#section_parte_superior {
+    
+}
+
+/*menu principal*/
+#menu_principal_como_todo {
+
+}
+
+/*parte do vesace - bazar*/
+.section_do_vesace_-_bazar {
+
+}
+
+/*parte do new in*/
+#parte_do_new_in {
+    display: none;
+}
+
+/*primeiros slide promos*/
+.section_slide_promos {
+    display: none;
+}
+
+/*watches*/
+
+
+/*italian leather artistry*/ 
+.section_italian {
+    display: none;
+}
+
+/*new in for him*/
+.body_new_in_for_him {
+    display: none;
+}
+
+/*STORIES RECENTES*/
+.storeis_recentes  {
+    display: none;
+}
+
+/*rodapé*/
+.rodape {
+    display: none;
+}
+
+/*watches seta*/
+.setas_watches {
+    display: none;
+}
+
+/*botoes*/
+#botao_responsivo {
+    display: none;
+}
+
+/*dj nick bazar cell*/
+#nick_dj_bazar_cell {
+    display: block;
+    position: relative;
+    top: -30px;
+}

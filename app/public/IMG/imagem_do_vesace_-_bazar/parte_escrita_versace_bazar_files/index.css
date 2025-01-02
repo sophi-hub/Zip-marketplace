@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'radiant' ;
+    src: url(../FONT/OPTIRadiant-Bold.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px ;
+}
+
+
+
+
+
+
+
+/* menu principa */
+
+
+
+
+
+
+/* parte do vesace - bazar */
+
+/* section do vesace - bazar */
+
+#section_do_vesace_-_bazar{
+    position: relative;
+    position: relative;
+    top: 100px;
+    
+
+}
+
+
+
+
+
+/* parte do highlights */
+
+#parte_do_slide_onde_contém_o_Tote_Bags{
+    height: 646px;
+    display: flex;
+    flex-direction: row;
+    width: 1920px;
+}
+
+/* parte escrita highlights */
+
+#escrito_highlights {
+    position: relative;
+    font-family: 'Lucida Sans Unicode', 'sans-serif';
+    font-size: 40px;
+    color: black;
+    top: 80px;
+    left: 103PX;
+    font-weight: 700;
+    
+}
+
+/*imagens e setas do highlights*/
+
+#imagens_e_setas_do_highlights {
+    display: flex;
+    column-gap: 23px;
+    position: relative;
+    left: 470px;
+    bottom: 50px;
+}
+
+/* imagens do highlights*/
+
+.imagens_do_highlights {
+    width: 156px;
+    height: 156px;
+}
+
+/* setas */
+
+.seta_highlights {
+    width: 12px;
+    height: 20px;
+    background-color: rgb(243, 245, 247);
+}
+
+#setas_do_highlights {
+    display: flex;
+    column-gap: 1034px;
+    position: relative;
+    left: 465px;
+    bottom: 160px;
+
+}
+
+/* seta esquerda */
+
+#seta_esquerda {
+    transform: rotate(180deg);
+}
+
+/* texto embaixo da imagems */
+
+.texto_das_imagens_do_highlights_curta {
+    position: relative;
+    left: 48.6px;
+    font-size: 15px;
+}
+
+.texto_das_imagens_do_highlights_tamancco {
+    position: relative;
+    left: 43px;
+}
+
+.texto_das_imagens_do_highlights_mens_loafers {
+    position: relative;
+    left: 35px;
+    font-size: 15px;
+}
+
+.texto_das_imagens_do_highlights_grecca_goddness{
+    position: relative;
+    left: 27px;
+    font-size: 15px;
+}
+
+.texto_das_imagens_do_highlights_womens_sandals{
+    position: relative;
+    left: 28px;
+    font-size: 15px;
+}
+
+

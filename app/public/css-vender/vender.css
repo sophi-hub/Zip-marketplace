@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+* {
+    text-decoration: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco: #fff;
+    --preto: #000;
+
+    --font-size-primaria: 1.88rem;
+    --font-size-secundaria: 3.1rem;
+
+    --peso-fonte-primario: 300;
+    --peso-fonte-secundario: 500;
+}
+
+body {
+    font: var(--peso-fonte-primario) var(--font-size-primaria) 'Poppins', sans-serif;
+    color: var(--preto);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.swiper {
+    margin: 100px auto;
+    width: 100vw;
+    height: 110vh;
+}
+
+.swiper-slide {
+    background-color: #c2caab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--branco);
+}
+
+.swiper-wrapper1 > .swiper-slide:nth-child(2n) {
+    height: 100vh;
+    width: 100vw;
+    padding: 0 2vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--branco);
+}
+
+.slogan-zip {
+    position: absolute;
+    right: 5vw;
+    top: 51vh;
+}
+
+.slide-primeiro-links {
+    position: absolute;
+    top: 78vh;
+    right: 4.5vw;
+}
+
+.link-bazar,
+.link-como-vender {
+    padding: 0 1vw 0 1vw;
+    color: var(--branco);
+}
+
+.link-como-vender {
+    border-left: 2px solid var(--branco);
+    padding-left: 1.4vw;
+}
+
+
+
+.homem-costas {
+    width: 800px;
+    margin-top: 3vw;
+}
+
+
+.init-hidden {
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+.init-hidden--direita {
+    opacity: 0;
+    transition-duration: 3s;
+}
+
+.carrosseis-bazar {
+    display: flex;
+    column-gap: -2vw;
+
+}
+
+.video-noiva {
+    width: 100vw;
+    margin: -20vh 1.2vw 0 0; 
+    height: 100vh; 
+    object-fit: cover;
+}
+
+.zip-transforma {
+    height: 40vh;
+    margin: 35vh 0 0 -7vw;
+}
+
+.video-celular {
+    width: 100vw; 
+    margin: -20vh 0 0 -3vw; 
+    height: 100vh; 
+    object-fit: cover;   
+    filter: blur(50px); 
+    opacity: 10%;
+}
+
+.requitos {
+    position: absolute;
+    left: 10vw;
+    top: 8vh;
+    display: flex;
+    justify-content: center;
+    column-gap: 3vw;
+}
+
+.req-imgs-escritas {
+    display: flex;
+    flex-direction: column;
+}
+
+.resquisitos-escrita {
+    width: 29vw;
+    margin-left: 2vw;
+}
+
+.modelo-oculos-branco {
+    height: 80vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.modelo-oculos-branco:hover {
+    transform: scale(1.1);
+}
+
+.swiper-slide:nth-child(2n) {
+    background: url('../../IMG/vender/fundo.png') no-repeat center/cover;
+    background-position: left;
+}
+
+.img-vender-requisitos {
+    width: 35vw;
+    margin: -70vh 0 0 14vw;
+}
+
+.noiva-roxa {
+    margin: -6vw 16vw 0 0;
+}
+
+.incetivo-cadastrar {
+    color: #353821;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 1vw 0 0 -48vw;
+    width: 28vw;
+    text-align: center;
+}
+
+.modelo-bola {
+    margin: -1.5vh 0 0 10vw;
+}
+
+
+@media only screen and (max-width:480px) {
+    .zip-transforma {
+        height: 35vh;
+        margin: 34vh 0 0 1vw;
+    }
+
+    .noiva-roxa {
+        display: none;
+    }
+
+    .img-vender-requisitos {
+        width: 80vw;
+        margin: -90vh 0 0 9vw;
+    }
+
+    .incetivo-cadastrar {
+        margin-top: -5vh;
+        width: 80vw;
+        position: absolute;
+        left: 59vw;
+        font-size: 16px;
+    }
+
+    .modelo-oculos-branco {
+        display: none;
+    }
+
+    .video-celular {
+        filter: blur(5px);
+    }
+
+    .requitos {
+        left: 3vw;
+        top: 15vh;
+    }
+
+    .bazar-resquisitos-escrita, .resquisitos-escrita {
+        width: 90vw;;
+    }
+}

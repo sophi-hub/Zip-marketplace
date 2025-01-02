@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.total {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#total-price {
+    
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3.65vw;
+    position: relative;
+    top: -5.10vw;
+}
+
+.cart-item img {
+    width: 10.47vw; /* Alterado para tamanho menor */
+    height: auto;
+    margin-right: 0.520833vw;
+}
+
+/*parte escrita bolsa preta*/
+.cart-item h3 {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    top: 4vh;
+}
+
+.cart-item p {
+    position: relative;
+    left: 00px;
+    top: 4vh;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#parcela {
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 0.5vw;
+}
+
+/*preço*/
+.cart-item h2 {
+    position: relative;
+    left: 0.834286vw;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*mover para wishlist*/
+.cart-item h1 {
+    font-size: 0.625714vw;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 5.86vw;
+    left: -11.20vw;
+}
+
+/*cor preta*/
+#cor_preta {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.834286vw;
+    font-weight: 500;
+    position: relative;
+    top: -3.28vw;
+}
+
+/*x remover*/
+#btnremove {
+    position: relative;
+    top: -5.83vw;
+    
+    width: 1.25vw;
+    height: 1.25vw;
+    border: none;
+    background-color: white;
+    background-image: url('../../IMG/sacola/produtos/x_para_remover_refeito.png');
+}
+
+/*parte da img coracao mover*/
+#coracao_mover {
+    width: 0.833333vw;
+    position: relative;
+    left: 0.312500vw;
+    top: 0.182292vw;
+}

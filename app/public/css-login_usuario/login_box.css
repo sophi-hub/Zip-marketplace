@@ -1,0 +1,132 @@
+
+
+.login_inteiro {
+    position: relative;
+    top: 450px;
+    right: 0%;
+
+}
+
+
+#Login {
+  background-color: #F6F6F6;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  top: 62%;
+  left: 38%;
+  transform: translate(-50%,-50%);
+  border-radius: 5px 0 0 5px;
+
+}
+
+#sou {
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 10px 0 30px 0;
+    font-weight: 500;
+    text-decoration: underline;
+    color: black;
+}
+
+form input[type=email],
+form input[type=text],
+form input[type=password]{
+    width: 85%;
+    height: 33px;
+    border: 1px solid rgb(73, 73, 73);
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+}
+form input[type=email],
+form input[type=text] {
+    margin-top: 35px;
+
+}
+form input[type=password] {
+    margin-top: 25px;
+}
+
+#botao-form{
+    width: 88%;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-color: rgb(36, 36, 36);
+    margin-bottom: 53px;
+    margin-top: 35px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#Remember {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    padding-right: 89px;
+    font-weight: 400;
+
+}
+
+
+
+
+#LostKey {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #000;
+    cursor: pointer;
+    margin-left: 22vh;
+    margin-right: 2vh;
+}
+
+#AftSend {
+   margin: 30px 0 0px;
+}
+
+#sign {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+#Up {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+#control {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+
+.span-required{
+    display: none;
+    position: absolute;
+    color: #e63636;
+    font-size: 14px;
+
+}
+#linha{
+    position: absolute;
+    top: 55%;
+      left: 100%;
+      transform: translate(-50%,-50%);
+      font-family: 'Poppins', sans-serif;
+      height: 22rem;
+    color: rgb(206, 201, 201);
+    z-index: 3;
+  }
+
+
+
+

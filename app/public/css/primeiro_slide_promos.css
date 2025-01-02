@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*promos responsivo*/
+#section_do_promos_responsivo {
+  display: none;
+}
+
+#section_promos_responsivo {
+  display: none;
+}
+
+.section_slide_promos {
+  position: relative;
+  top: 0px;
+  left: 17.46%;
+  display: flex;
+}
+
+.slide_secundario_article_promos {
+  position: relative;
+  top: -186px;
+  left: -6.4%;
+
+}
+
+/* parte dos relogios */
+/*slide1*/
+
+
+#slide_secundario_promos_produto1{
+    position: relative;
+    top: 34.5%;
+    width: 376px;
+    height: 482px;
+}
+
+
+
+/*slide2*/
+#slide_secundario_promos_produto2 {
+  position: relative;
+  top: 34.5%;
+  width: 376px;
+  height: 482px;
+ 
+}
+
+
+
+/*slide3*/
+#slide_secundario_promos_produto3 {
+  position: relative;
+  top: 34.5%;
+  width: 376px;
+  height: 482px;
+}
+
+
+
+
+/*slide4*/
+.relogio4_bazar {
+    position: relative;
+    top: 200px;
+    width: 425px;
+    height: 532px;
+    background-image: url('../IMG/bazar/parte_dos_relogios/relogio4_refeito.png');
+}
+
+.relogio4_bazar:hover {
+  background-image: url('../IMG/bazar/parte_dos_relogios/relogio3_hover_refeito.png');
+}
+
+/*slide5*/
+.relogio5_bazar {
+  position: relative;
+  top: 34.5%;
+  width: 376px;
+  height: 482px;
+  background-color: blueviolet
+}
+
+.relogio5_bazar:hover {
+  background-image: url('../IMG/bazar/parte_dos_relogios/relogio3_hover_refeito.png');
+}
+
+/*parte escrita promos*/
+#parte_escrita_promos {
+  position: relative;
+  top: -22px;
+  left: -315%;
+}
+
+/* parte escrita */
+.parte_escrita_relogio {
+    position: relative;
+    top: 36%;
+    left: 30px;
+}
+
+.relogios_paragrafo {
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-bottom: 1%;
+    text-decoration: none;
+    color: #000;
+}
+
+.relogios_paragrafo_preco {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  font-size: 19px;
+  left: -1%;
+  opacity: 60%;
+  text-decoration: none;
+  color: #000;
+}
+
+/* seta */
+.seta_relogios {}
+
+.slide_secundario_article_promos {
+    width: 1800px;
+    height: 500px;
+}
+.slide_secundario_grupo_promos {
+    display: flex;
+    column-gap: 8px;
+}
+
+  
+  .slider_secundario_promos {
+    width: 100%;
+    height: 820px;
+  
+    position: absolute;
+    left: 0;
+    overflow: hidden; /* <===  */
+    border-radius: 15px;
+  }
+  
+  .slide_secundario_promos {
+    width: 100%;
+    height: 525px;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  
+  .slide_secundario_promos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .section_dos_botoes{
+    position: relative;
+    top: 85%;
+  }
+
+  
+  .btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    right: 100px;
+    
+  }
+  .btn img {
+    width: 120px;
+    position: relative;
+    left: -250%;
+    top: -245%;
+  
+  }
+  .btn:active {
+    transform: scale(1.1);
+  }
+  .btn-prev {
+    top: 65%;
+    left: 2%;
+    display: none;
+  }
+  .btn-next {
+    top: -375px;
+    right: 0.1%;
+  }
+  
+  /* parte 2 do slide secundario */
+  #slide_secundario_promos2{
+    position: relative;
+    display: flex;
+    column-gap: 8px;
+  }
+
+  #slide2_secundario_promos_produto1{
+    position: relative;
+    top: 34.5%;
+    width: 376px;
+    height: 482px;
+
+}
+
+
+
+#slide2_secundario_promos_produto2 {
+  position: relative;
+  top: 34.5%;
+  width: 376px;
+  height: 482px;
+}
+
+
+#slide2_secundario_promos_produto3 {
+  position: relative;
+  top: 34.5%;
+  width: 376px;
+  height: 482px;
+
+}
+
+
+
+  /*slide principal*/
+  .slide_principal_promos_article {
+    position: relative;
+    right: 15.5%;
+    top: ;
+    width: 454px;
+    height: 609px;
+  }
+
+  .slider_principal_promos {
+    width: 723px;
+    height: 820px;
+    position: absolute;
+    left: 0;
+    overflow: hidden; /* <===  */
+
+
+  }
+
+  .slide_principal_promos{
+    width: 100%;
+    height: 525px;
+    position: absolute;
+    transition: all 0.5s;
+    line-height: 32px;
+
+  }
+
+
+  .slide_principal_grupo_promos {
+    display: flex;
+    column-gap: 30px;
+  }
+
+  #figcaption_do_slide_Principal_promos {
+    position: relative;
+    left: 106%;
+    top: -50%;
+  }
+
+  #paragrafo_do_slide_Principal_promos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    width: 10vw;
+    color: #000;
+  }
+
+  #paragrafo_do_slide_Principal_promos_preço {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    opacity: 60%;
+    color: #000;
+  }
+
+  #Produto_principal_promos{
+    width: 450px;
+    height: 616px;
+    
+    position: relative;
+  }
+
+
+
+
+  /*slide principal 2*/
+  .Produto_principal_promos2{
+    width: 450px;
+    height: 616px;
+    background-position: 15px;
+    position: relative;
+    
+  }
+
+
+
+  .slider_principal_promos2 {
+    width: 753px;
+    height: 820px;
+    position: absolute;
+    left: 0;
+    overflow: hidden; /* <===  */
+  }
+
+  #produto_principal_promos_parte_e_scrita_e_imagem2{
+    position: relative;
+    left: 10%;
+  }
+
+
+  * {
+    text-decoration: none;
+  }

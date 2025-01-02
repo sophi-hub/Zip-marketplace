@@ -1,0 +1,70 @@
+.stories_recentes {
+    display: none;
+}
+
+
+#section_entre_no_mundo_cell {
+    position: relative;
+    top: 25vh;
+    background-color: #F4F4F4;
+    height: 25vh;
+    display: block;
+}
+
+#figure_entre_no_mundo_cell {
+    background-image: url("../../IMG/cell_index/stories-recentes/entre-no-mundo-zip-Photoroom.png");
+    background-repeat: no-repeat;
+    background-size: 38vw;
+    width: 38vw;
+    height: 5vh;
+    position: relative;
+    margin: auto;
+   top: 3vh;
+}
+
+/*paragrafo*/
+#paragrafo_entre_no_mundo_cell {
+    position: relative;
+    top: 3vh;
+}
+
+#paragrafo_entre_no_mundo_cell > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.7vw;
+    font-weight: 600;
+    opacity: 70%;
+    text-align: center;
+}
+
+/*botao email*/
+#section_botao_email_entre_no_mundo_cell {
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section_botao_email_entre_no_mundo_cell > a {
+    text-decoration: none;
+}
+
+#article_botao_email_entre_no_mundo_cell {
+    width: 175px;
+    height: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.349);
+    display: flex;
+    align-items: center;
+    column-gap: 113px;
+}
+
+#article_botao_email_entre_no_mundo_cell > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.925);
+    position: relative;
+    left: 10px;
+}
+
+#article_botao_email_entre_no_mundo_cell > img {
+    width: 14px;
+}

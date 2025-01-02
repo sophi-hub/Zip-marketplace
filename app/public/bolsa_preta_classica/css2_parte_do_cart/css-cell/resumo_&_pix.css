@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#section_section{
+    height: ;
+}
+
+#section_do_resumo_e_do_pix {
+    width: 100vw;
+    height: 73.67vw;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 2.8vw;
+    top: 26.5vw;
+}
+
+/*position sticky*/
+#position_sticky {
+    position: relative;
+    top: 6.25vw;
+    margin-left: 2vw;
+}
+
+/*resumo do pedido*/
+
+/*section para dar o espaço da esquerda*/
+#parte_do_section_distancia_da_esquerda{
+    position: absolute;
+    left: 5.6%;
+}
+
+/*parte escrita resumo do pedido*/
+#section_parte_escrita_resumo_do_pedido {
+    padding-top: 1.20vw;
+    padding-bottom: 1.82vw;
+}
+
+#parte_escrita_resumo_do_pedido {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    padding: 3vw 0 2vw 0;
+    text-align: start;
+}
+
+/*resumo do pedido*/
+#artcle_resumo_do_pedido {
+    width: 90vw;
+    height: 45vw;
+    background-color: #F2F2F2;
+}
+
+/*paragrafo*/
+.paragrafo_resumo {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 0.833333vw;
+}
+
+.paragrafo_resumo_display_felex {
+    display: flex;
+}
+
+.paragrafo_resumo_direita {
+    position: absolute;
+    right: 13.2vw;
+    
+}
+
+.parte_do_total {
+    font-weight: 600;
+    font-size: 3.5vw;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5vw;
+}
+
+/*linha*/
+#article_linha_resumo {
+    padding-bottom: 0.833333vw;
+    width: 80vw;
+}
+
+/*botao finalizar*/
+#checkout-btn {
+    width: 80.61vw;
+    height: 10.81vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -0.00000000000000000001vw;
+    top: 6vw;
+    margin-bottom: 10vw;
+    z-index: 100;
+}
+
+#paragrafo_do_botao_do_finalizar_resumo{
+    color: #F2F2F2;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8vw;
+}
+
+/*pix*/
+#article_do_pix {
+    width: 90vw;
+    height: 89.32vw;
+    background-color: #F2F2F2;
+    position: relative;
+    top: 0.989583vw;
+}
+
+/*paragrafos*/
+
+/*forma de patgamento*/
+#article_forma_de_pagamento {
+    padding: 1.3vw 0 0 1.3vw;
+}
+
+#paragrafo_forma_de_pagamento {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 4vw;
+}
+
+/*entrega*/
+#article_entrega {
+    padding-top: 1.56vw;
+}
+
+#paragrafo_entrega {
+    font-size: 3.5ve;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/*receba até 3-5 dias úteis*/
+#article_receba_ate_3 {
+    text-align: center;
+}
+
+#paragrafo_receba_ate_3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vw;
+}
+
+/*vinkings*/
+#article_vinkings {
+    text-align: center;
+    padding-top: 1.04vw;
+}
+
+#paragrafo_vinkings {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vw;
+    font-weight: 550;
+}
+
+#span_vinkings {
+    color: #D9001B;
+}
+
+/*7 dias após a coleta*/
+#article_7_dias {
+    text-align: center;
+}
+
+#paragrafo_7_dias {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vw;
+}
+
+/*Preciso de ajuda*/
+#article_preciso_de_ajuda {
+    text-align: center;
+    padding: 1.56vw;
+}
+
+#paragrafo_preciso_de_ajuda {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vw;
+    color: black;
+}
+
+/*imagem do pix*/
+#imagem_do_pix {
+    display: flex;
+    padding: 1vw 0 0 1.3vw;
+    width: 12vw;
+    height: 12vw;
+    padding-left: 5vw;
+}
+
+
+#endereco-botap {
+    width: 80vw;
+    height: 2.81vw;
+    font: 500 3.8vw 'Poppins';
+    padding: 10vw 0vw 0vw 13vw;
+    color: black;
+    position: relative;
+    left: -0.00000000000000000001vw;
+    top: 0.0000000000000000000000001vh;
+    z-index: 100;
+}
+
+
+#area_de_endereco > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8vw;
+    font-weight: 500;
+    margin-bottom: 1.5vh;
+    margin-left: 13vw;
+}

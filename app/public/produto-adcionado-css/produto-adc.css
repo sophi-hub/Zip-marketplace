@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#display-flex {
+    display: flex;
+    width: 80vw;
+    position: relative;
+    column-gap: 15vw;
+    top: 10vh;
+    left: 5vw;
+}
+
+#section_do_adc {
+    position: relative;
+    top: 10vh;
+}
+
+#cart-items {
+    width: 40vw;
+    margin: 2.5vh;
+}
+
+.cart-item {
+    width: 40vw;
+    display: flex;
+    margin: 2.1vh 0 ;
+}
+.cart-item > img {
+    width: 12vw;
+    height: 15.5vw;
+}
+
+.cart-item > article {
+    width: 17.30vw;
+    align-items: center;
+    padding-top: 4.3vw;
+    padding-left: 2vw;
+}
+
+.cart-item > article > h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.cart-item > article > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    position: relative;
+    margin-bottom: 0.3vw;
+}
+
+#linha {
+    width: 40vw;
+}
+
+#form_input {
+    position: relative;
+    top: -1vw;
+    left: 7vw;
+}
+
+#btnremove {
+    margin: 0.3vw 0 -3vw 0 0;
+    display: block;
+    border: none;
+    background-color: white;
+    background-image: url(../../../IMG/wishlist/produtos/x_para_remover_refeito.png);
+    background-size: 1.2vw;
+    background-position: center center;
+    width: 1.2vw;
+    height: 1.2vw;
+}

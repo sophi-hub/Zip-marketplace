@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --corpartesuperior: #292727;
+    --cordapartesuperiorverde: #084b4b;
+}
+
+/*responsivo*/
+#section_watche_responsivo_cell {
+    display: none;
+}
+
+/*zara_bazar_para_ele*/
+#parte_como_todo_watches {
+    position: relative;
+    top: -15.22vh;
+}
+
+.section_watches {
+    display: flex;
+    column-gap: 5.57vw;
+    position: relative;
+    height: 13.54vw;
+    top: 14.58vw;
+}
+
+
+
+
+
+/* parte do slide */
+.primeiro_slide {
+    position: relative;
+    top: -590px;
+}
+
+/* parte escrita new in for her */
+.escrita_new_in_for_her {
+    position: relative;
+    top: 43.48vh;
+    right: 111.20vw;
+    width: 20.83vw;
+    height: 20.83vw;
+
+}
+
+/*imagem_pricipal do new in for her*/
+.imagem_do_watches {
+    position: relative;
+    width: 41.82vw;
+    height: 53.59vw;
+}
+
+/*parte escrita watches*/
+
+#figure_imagem_whatches {
+    position: relative;
+    left: -35.5%;
+    top: 146%;
+}
+
+#imagem_watches{
+    width: 15.00vw;
+    height: 15.00vw;
+}
+
+
+
+
+
+
+
+/*setas*/
+.setas_watches {
+    display: flex;
+    column-gap: 23.28vw;
+    position: relative;
+    top: 16.93vw;
+    left: 60%;
+}
+
+#setas-watches-cell {
+    display: none;
+}
+
+
+
+
+
+
+/*parte escrita do botão*/
+
+#botao_do_watches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 13.8%;
+    top: 215%;
+    font-size: 6;
+    font-weight: normal;
+    width: 12.45vw;
+    height: 1.88vw;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+#botao_do_watches:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: px;
+    top: px;
+    font-size: 6;
+    font-weight: normal;
+    width: 12.45vw;
+    height: 1.88vw;
+    background-color: var(--corpartesuperior);
+    color: white;
+}
+
+#botao_do_watches > p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.paragrafo_zara_bazar {
+
+}
+
+.compre_agora_zara_bazar:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: px;
+    top: px;
+    font-size: 6;
+    font-weight: normal;
+    width: 12.45vw;
+    height: 1.88vw;
+    background-color: var(--corpartesuperior);
+    color: white;
+}
+
+
+/* slide */
+.slide2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.91vw;
+    height: 28.18vw;
+    overflow: hidden;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 22.86vw;
+    height: 35.94vw;
+    overflow: hidden;
+    position: relative;
+    top: 8vw;
+    left: -24%;
+}
+
+.slides {
+    width: 400%;
+    height: 31.25vw;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 22.86vw;
+    position: relative;
+    transition: 1s;
+}
+
+.slide img {
+    
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 41.67vw;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid var(--corpartesuperior);
+    padding: 0.208333vw;
+    border-radius: 0.520833vw;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+    left: -23%;
+    top: 6vw;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 12px;
+}
+
+.manual-btn:hover {
+    background-color: var(--corpartesuperior);
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+
+
+.navigation-auto article{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #000000;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #000000;
+}
+
+
+.imagem_do_watches_slide {
+    width: 22.86vw;
+    height: 28.59vw;
+    background-color: black;
+}
+ 
+
+
+.imagem_do_watches_slide2 {
+    width: 22.86vw;
+    height: 28.59vw;
+    background-color: black;
+}
+
+
+
+/*parte escrita dos produtos*/
+
+.paragrafo_figcaption{
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produto_paragrafo_watches1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.46vw;
+    font-weight: 500;
+    position: relative;
+    top: 5px;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.parte_do_preço_watches {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.989583vw;
+    opacity: 60%;
+    position: relative;
+    color: #000000;
+}
+
+.produto_paragrafo_watches2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.46vw;
+    font-weight: 500;
+    position: relative;
+    top: 5px;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+/*preço*/
+.div_preco {
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo_preco{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.paragrafo_figcaption_cell {
+    text-align: center;
+}

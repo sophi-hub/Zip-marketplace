@@ -1,0 +1,266 @@
+/*slide*
+
+/*iphone se*/
+
+/*slide*/
+@media screen and (min-width:367px) and (max-width:376px) {
+    .sliderla {
+
+        position: relative;
+
+        left: -37.5vw;
+    
+    }
+}
+
+/*setas*/
+@media screen and (min-width:367px) and (max-width:376px) {
+    .setas_larezzo {
+
+        position: relative;
+        top: -67vh;
+        left: 2vw;
+    }
+}
+
+/*bolinhas*/
+
+@media screen and (min-width:367px) and (max-width:376px) {
+    #larezzo_bolinha_cell {
+        position: relative;
+        top: -21vh;
+        left: -22vw;
+    
+    }
+}
+
+/*iphone xr*/
+/*slide*/
+@media screen and (min-width:414px) and (max-width:416px) {
+    .sliderla {
+
+        position: relative;
+
+        left: -32.5vw;
+    
+    }
+}
+
+/*setas*/
+@media screen and (min-width:414px) and (max-width:416px) {
+    .setas_larezzo {
+
+        position: relative;
+        top: -52vh;
+        left: 3vw;
+    }
+}
+
+/*bolinhas*/
+
+@media screen and (min-width:414px) and (max-width:416px) {
+    #larezzo_bolinha_cell {
+        position: relative;
+        top: -11.5vh;
+        left: -18vw;
+    
+    }
+}
+
+/*iphone 12 pro*/
+/*slide*/
+@media screen and (min-width:380px) and (max-width:391px) {
+    .sliderla {
+
+        position: relative;
+
+        left: -35vw;
+    
+    }
+}
+
+/*setas*/
+@media screen and (min-width:380px) and (max-width:391px) {
+    .setas_larezzo {
+
+        position: relative;
+        top: -55vh;
+        left: 3vw;
+    }
+}
+
+/*bolinhas*/
+
+@media screen and (min-width:380px) and (max-width:391px) {
+    #larezzo_bolinha_cell {
+        position: relative;
+        top: -14.5vh;
+        left: -20vw;
+    
+    }
+}
+
+/*iphone 14 pro max*/
+/*slide*/
+@media screen and (min-width:417px) and (max-width:431px) {
+    .sliderla {
+
+        position: relative;
+
+        left: -31vw;
+    
+    }
+}
+
+/*setas*/
+@media screen and (min-width:417px) and (max-width:431px) {
+    .setas_larezzo {
+
+        position: relative;
+        top: -50vh;
+        left: 3.5vw;
+    }
+}
+
+/*bolinhas*/
+
+@media screen and (min-width:417px) and (max-width:431px) {
+    #larezzo_bolinha_cell {
+        position: relative;
+        top: -9.5vh;
+        left: -16vw;
+    
+    }
+}
+
+/*galaxy s8+*/
+/*slide*/
+@media screen and (min-width:359px) and (max-width:366px) {
+    .sliderla {
+
+        position: relative;
+
+        left: -39vw;
+    
+    }
+}
+
+/*setas*/
+@media screen and (min-width:359px) and (max-width:366px) {
+    .setas_larezzo {
+        display: flex;
+        column-gap: 62vw;
+        position: relative;
+        top: -62vh;
+        left: 3.5vw;
+    }
+}
+
+/*bolinhas*/
+
+@media screen and (min-width:359px) and (max-width:366px) {
+    #larezzo_bolinha_cell {
+        position: relative;
+        top: -19.5vh;
+        left: -25vw;
+    
+    }
+}
+
+/*galaxy s9*/
+/*slide*/
+@media screen and (min-width:399px) and (max-width:411px) {
+    .sliderla {
+
+        position: relative;
+
+        left: -34vw;
+    
+    }
+}
+
+/*setas*/
+@media screen and (min-width:399px) and (max-width:411px) {
+    .setas_larezzo {
+        display: flex;
+        column-gap: 62vw;
+        position: relative;
+        top: -66vh;
+        left: 4.3vw;
+    }
+}
+
+/*bolinhas*/
+
+@media screen and (min-width:399px) and (max-width:411px) {
+    #larezzo_bolinha_cell {
+        position: relative;
+        top: -16.5vh;
+        left: -20vw;
+    
+    }
+}
+
+/*galaxy s20 ultra*/
+/*slide*/
+@media screen and (min-width:412px) and (max-width:413px) {
+    .sliderla {
+
+        position: relative;
+
+        left: -34vw;
+    
+    }
+}
+
+/*setas*/
+@media screen and (min-width:412px) and (max-width:413px) {
+    .setas_larezzo {
+        display: flex;
+        column-gap: 62vw;
+        position: relative;
+        top: -52vh;
+        left: 4.3vw;
+    }
+}
+
+/*bolinhas*/
+
+@media screen and (min-width:412px) and (max-width:413px) {
+    #larezzo_bolinha_cell {
+        position: relative;
+        top: -10.5vh;
+        left: -18vw;
+    
+    }
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*imagem*/
+
+/*iphone se*/
+
+/*imagem*/
+@media screen and (min-width:360px) and (max-width:440px) {
+    #imagem_principal_larezzo_cell {
+        background-size: 70vh;
+        width: 145vw;
+        height: 74vh;
+        position: relative;
+        background-position: -20vw;
+    
+    }
+}
+
+@media screen and (min-height:667px) and (max-height:750px) {
+    #imagem_principal_larezzo_cell {
+        background-size: 70vh;
+        width: 145vw;
+        height: 74vh;
+        position: relative;
+        background-position: -10vw;
+    
+    }
+}
+
