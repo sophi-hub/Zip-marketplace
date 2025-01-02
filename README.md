@@ -1,11 +1,9 @@
-# ZipNew: Brechó e Marketplace Sustentável
+# Zip: Brechó e Marketplace Sustentável
 
-Bem-vindo ao repositório oficial do **ZipNew**, um brechó digital com sistema de marketplace inspirado nos Objetivos de Desenvolvimento Sustentável da ONU (Agenda 2020/2030). Nossa missão é promover o consumo e a produção responsáveis, conectando pessoas em um ambiente interativo, responsivo e inovador.
-
-![ZipNew](https://via.placeholder.com/1000x200/1f1f1f/ffffff?text=ZipNew)
+Bem-vindo ao repositório oficial do **Zip**, um brechó digital com sistema de marketplace inspirado nos Objetivos de Desenvolvimento Sustentável da ONU (Agenda 2020/2030). Nossa missão é promover o consumo e a produção responsáveis, conectando pessoas em um ambiente interativo, responsivo e inovador.
 
 ## 🌐 Sobre o Projeto
-O **ZipNew** permite que pessoas revendam roupas usadas, contribuindo para um planeta mais sustentável. Nosso diferencial é o recurso de bazares criados por famosos, onde parte dos lucros é destinada a instituições de caridade.
+O **Zip** permite que pessoas revendam roupas usadas, contribuindo para um planeta mais sustentável. Nosso diferencial é o recurso de bazares criados por famosos, onde parte dos lucros é destinada a instituições de caridade.
 
 ---
 
@@ -53,15 +51,6 @@ O **ZipNew** permite que pessoas revendam roupas usadas, contribuindo para um pl
 ### 🚀 Hospedagem e Domínios
 - [zipnew.online](https://zipnew.online)
 - [zipnew2024.onrender.com](https://zipnew2024.onrender.com)
-
----
-
-### 🎨 Estilo Visual
-Nosso design é pensado para transmitir modernidade e sofisticação, utilizando as cores:
-- **Preto:** Elegância e sobriedade.
-- **Branco:** Clareza e simplicidade.
-- **Rosa Avermelhado:** Paixão e energia.
-- **Verde Água:** Renovabilidade e harmonia.
 
 ---
 
