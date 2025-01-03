@@ -48,7 +48,7 @@ Welcome to the official repository of **Zip** (Final Course Project), a digital 
 
 ### 🚀 Hosting and Domains
 - [zipnew.online](https://zipnew.online)
-- [zipnew2024.onrende
+- [zipnew2024.onrender.com](https://zipnew2024.onrender.com)
 
 ---
 
