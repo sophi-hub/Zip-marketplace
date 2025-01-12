@@ -36,7 +36,7 @@ A **Zip** permite que pessoas revendam roupas usadas, contribuindo para um plane
 - **Linguagens e Frameworks:** JavaScript, Node.js, Express, MySQL, HTML, CSS.
 - **Ferramentas:** VSCode, Workbench, Clever Cloud, Render.
 - **Metodologias:** Mobile First, Usabilidade e Acessibilidade.
-- **APIs:** Mercado Pago, Correios.
+- **APIs:** Mercado Pago, Correios e etc.
 
 ---
 
