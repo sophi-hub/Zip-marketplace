@@ -36,7 +36,7 @@ Welcome to the official repository of **Zip** (Final Course Project), a digital 
 - **Languages and Frameworks:** JavaScript, Node.js, Express, MySQL, HTML, CSS.
 - **Tools:** VSCode, Workbench, Clever Cloud, Render.
 - **Methodologies:** Mobile First, Usability, and Accessibility.
-- **APIs:** Mercado Pago, Correios.
+- **APIs:** Mercado Pago, Correios and etc.
 
 ---
 
