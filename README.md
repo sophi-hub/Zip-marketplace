@@ -33,7 +33,7 @@
 
 > **Para solicitar o upgrade de conta para criar um bazar, o famoso deve:**
 > - Ter uma **conta verificada** no TikTok, Instagram ou YouTube.
-> - Ter mais de **100 mil seguidores** em uma dessas plataformas.
+> - Ter mais de **500 mil seguidores** em uma dessas plataformas.
 > - Destinar uma **porcentagem do lucro arrecadado** no bazar para uma **instituição de caridade**.
 
 ---
