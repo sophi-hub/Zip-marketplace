@@ -101,7 +101,7 @@ Juntos, podemos tornar a **Zip** ainda mais incrível! 🖤✨
 ## **Hospedagem e Domínios**
 
 - [zipnew.online](https://zipnew.online)
-- [zipnew2024.onrender.com](https://zip-ikem.onrender.com)
+- [zip-ikem.onrender.com](https://zip-ikem.onrender.com)
 
 ---
 
